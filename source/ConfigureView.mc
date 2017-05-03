@@ -17,6 +17,9 @@ class MainMenuInputDelegate extends Ui.MenuInputDelegate {
         } else if ( item == :item_2 )  {
             Ui.pushView( new Rez.Menus.RunSettings(), new RunSettingsInputDelegate(), Ui.SLIDE_LEFT );
             Ui.requestUpdate();
+        } else if ( item == :item_3 )  {
+            Ui.pushView( new Rez.Menus.FondEcranMenu(), new FondEcranMenuInputDelegate(), Ui.SLIDE_LEFT );
+            Ui.requestUpdate();
         }
         else{
         	Ui.pushView( new Rez.Menus.ChangeMode(), new ChangeModeInputDelegate(), Ui.SLIDE_LEFT );
@@ -39,6 +42,21 @@ class ModeMenuInputDelegate extends Ui.MenuInputDelegate {
         }
         else{
         	App.getApp().setProperty( "TriathlonMode", 2 );
+			Ui.requestUpdate();
+        }
+    }
+
+}
+
+class FondEcranMenuInputDelegate extends Ui.MenuInputDelegate {
+
+	function onMenuItem(item) {
+        if ( item == :item_1 ) {
+			App.getApp().setProperty( "FondEcran", 0 );
+			Ui.requestUpdate();   
+        } 
+        else if ( item == :item_2 ) {
+            App.getApp().setProperty( "FondEcran", 1 );
 			Ui.requestUpdate();
         }
     }

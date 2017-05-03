@@ -26,7 +26,7 @@ module TriData {
 		// Normal Triathlon	
 		if( triMode == 0 )
 		{
-			disciplines[0].initaliseDiscipline(4);
+			disciplines[0].initaliseDiscipline(4);//NORMAL RUN
 //INIT		
 			//disciplines[1].initaliseDiscipline(1);
 			//disciplines[2].initaliseDiscipline(2);
@@ -35,12 +35,13 @@ module TriData {
 		}
 		// Aquathlon
 		if( triMode == 1 )
-		{
-			disciplines[0].initaliseDiscipline(4);
-			disciplines[1].initaliseDiscipline(1);
-			disciplines[2].initaliseDiscipline(0);
-			disciplines[3].initaliseDiscipline(3);
-			disciplines[4].initaliseDiscipline(4);
+		{	
+			disciplines[0].initaliseDiscipline(2);//NORMAL BIKE
+			//disciplines[0].initaliseDiscipline(4);
+			//disciplines[1].initaliseDiscipline(1);
+			//disciplines[2].initaliseDiscipline(0);
+			//disciplines[3].initaliseDiscipline(3);
+			//disciplines[4].initaliseDiscipline(4);
 		}
 		// Duathlon
 		if( triMode == 2 )

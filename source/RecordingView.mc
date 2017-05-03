@@ -231,7 +231,8 @@ class RecordingView extends Ui.View {
 		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
 		dc.drawLine( 0, y, dc.getWidth(), y );
 		
-
+        //dc.drawText(dc.getWidth()/2-3, 57, Graphics.FONT_NUMBER_THAI_HOT, Functions.convertSpeedToPace(Act.getActivityInfo().currentSpeed), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+		
 	}
 	
 	function drawDataField(dc, label, value, y) {
