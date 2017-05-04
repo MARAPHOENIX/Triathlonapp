@@ -290,7 +290,16 @@ class RecordingView extends Ui.View {
 		var cursession = Act.getActivityInfo();
 		//vitesse moy 10s
 		paceData.add(cursession.currentSpeed);
-		dc.drawText(dc.getWidth()/2-3, 57, Graphics.FONT_NUMBER_THAI_HOT, Functions.getMinutesPerKmOrMile(Functions.computeAverageSpeed(paceData)), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+		var computeAvgSpeed = Functions.computeAverageSpeed(paceData);
+		var font = Graphics.FONT_NUMBER_HOT;
+	    if (computeAvgSpeed>=1.67){
+        	font =  Graphics.FONT_NUMBER_THAI_HOT;
+        	dc.drawText(dc.getWidth()/2-3, 57, font, Functions.getMinutesPerKmOrMile(computeAvgSpeed), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }else{
+        	dc.drawText(dc.getWidth()/2-3, 68, font, Functions.getMinutesPerKmOrMile(computeAvgSpeed), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+
+		
 		
 		//hr
 		dc.drawText(30, 76, Graphics.FONT_NUMBER_MEDIUM, string_HR, CENTER);
@@ -307,7 +316,12 @@ class RecordingView extends Ui.View {
 		
 		//cadence
 		var cadence = cursession.currentCadence != null ? cursession.currentCadence : 0;
-		dc.drawText(dc.getWidth()-35, 76, Graphics.FONT_NUMBER_MEDIUM, cadence.format("%d"), CENTER);
+		var cadenceStr = "---";
+		
+		if (cadence > 0){
+			cadenceStr = cadence.format("%d");
+		} 
+		dc.drawText(dc.getWidth()-35, 76, Graphics.FONT_NUMBER_MEDIUM, cadenceStr, CENTER);
 		
 		//time
         var clockTime = System.getClockTime();
