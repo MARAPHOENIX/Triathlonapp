@@ -14,9 +14,13 @@ var elapsedLapTimeP = 0;
 var elapsedLapDistanceP = 0.0;
 var LapCounter = 0;
 var lapPace = "";
+var lapDistance = "";
 var change = 0;
 var paceData = new DataQueue(10);
+var screen = 0;
 
+var lapInitDistance = 0.0;
+var lapInitTime = 0;
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
 
@@ -38,34 +42,75 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 		}
 		
 		if( evt.getKey() == Ui.KEY_UP ) {
-    		if (App.getApp().getProperty( "Choix" ) == 0){
-    			App.getApp().setProperty( "Choix",1);
-    		}else{
-    			App.getApp().setProperty( "Choix",0);
-    		}
+			if (screen == 0){
+				if (App.getApp().getProperty( "Choix" ) == 0){
+	    			App.getApp().setProperty( "Choix",1);
+	    		}else{
+	    			App.getApp().setProperty( "Choix",0);
+	    		}
+	    		screen = 1;
+			}else{
+				if (App.getApp().getProperty( "FondEcran" ) == 0){
+    				App.getApp().setProperty( "FondEcran",1);
+    			}else{
+    				App.getApp().setProperty( "FondEcran",0);
+    			}
+				screen = 0;
+			}
+    		
     		Ui.requestUpdate();
     
         }
         
         
 		if( evt.getKey() == Ui.KEY_DOWN ) {
-    		if (App.getApp().getProperty( "FondEcran" ) == 0){
-    			App.getApp().setProperty( "FondEcran",1);
-    		}else{
-    			App.getApp().setProperty( "FondEcran",0);
-    		}
+    		if (App.getApp().getProperty( "Format" ) == 0){
+    			App.getApp().setProperty( "Format",1);
+	    	}else{
+	    		App.getApp().setProperty( "Format",0);
+	    	}
     		Ui.requestUpdate();
     
         }
         
         
         if( evt.getKey() ==  Ui.KEY_ESC  ) {
-        	//System.println("POWER");
-    		if (App.getApp().getProperty( "Format" ) == 0){
-    			App.getApp().setProperty( "Format",1);
-    		}else{
-    			App.getApp().setProperty( "Format",0);
-    		}
+        	//lap idem onTimerLap
+        	var cursession = Act.getActivityInfo();
+			var elapsedLapTime = 0; // (ms)  
+			var elapsedLapDistance = 0.0; // (m)
+			var lapVel = 0.0d;
+			var elapsedTime = cursession.elapsedTime;
+			var elapsedDistance = cursession.elapsedDistance;
+			
+		
+			if ( elapsedTime != null && elapsedTime > 0 && elapsedDistance != null  && elapsedDistance > 0){
+				elapsedLapTime = cursession.elapsedTime - lapInitTime;
+				elapsedLapDistance = cursession.elapsedDistance - lapInitDistance;
+				if ( elapsedLapTime > 0 && elapsedLapDistance > 0 ){
+					lapVel = elapsedLapDistance.toDouble()/(elapsedLapTime.toDouble()/1000);
+				}
+			}
+				
+			
+			TriData.nextLap();
+			//LapTime = elapsedLapTimeP + (autolapdistance - elapsedLapDistanceP)/(elapsedLapDistance - elapsedLapDistanceP)*(elapsedLapTime - elapsedLapTimeP);
+			LapTime = elapsedLapTime;
+			
+			lapInitTime = lapInitTime + LapTime;
+			//lapInitDistance = lapInitDistance + autolapdistance;
+			lapInitDistance = lapInitDistance + elapsedLapDistance;
+			
+			LapCounter = LapCounter + 1;
+			Ui.pushView(new LapView(), new RecordingViewInputDelegate(), Ui.SLIDE_IMMEDIATE);
+					
+			//elapsedLapTimeP = elapsedLapTime;
+			//elapsedLapDistanceP = elapsedLapDistance;
+			
+				
+			lapPace = Functions.convertSpeedToPace(lapVel);
+        	lapDistance = Functions.convertDistance(elapsedLapDistance);
+        	
     		Ui.requestUpdate();
     
         }
@@ -108,8 +153,7 @@ class RecordingView extends Ui.View {
 	var recordingtimer;
 	var i = 0;
 	var string_HR;
-	var lapInitDistance = 0.0;
-	var lapInitTime = 0;
+
 	
 	
     function recordingtimercallback()
@@ -458,8 +502,12 @@ class LapView extends Ui.View {
 		dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_BLACK);
 		dc.clear();
 		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(dc.getWidth()/2, dc.getFontHeight(Gfx.FONT_LARGE), Gfx.FONT_LARGE, "Lap " + LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2, Gfx.FONT_NUMBER_HOT, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(dc.getWidth()/2, dc.getFontHeight(Gfx.FONT_LARGE)-30, Gfx.FONT_LARGE, "Lap " + LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2 -45, Gfx.FONT_NUMBER_HOT, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, lapPace, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(dc.getWidth()/2, dc.getHeight()/2 +40, Gfx.FONT_NUMBER_MEDIUM, lapDistance, Gfx.TEXT_JUSTIFY_CENTER);
+		
+		
 		if (counter < 5){
 			counter = counter + 1;
 		}

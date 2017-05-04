@@ -159,816 +159,842 @@
 <entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\TriData.mc" lineNum="95" pc="268439959" symbol="nextLap"/>
 <entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\TriData.mc" lineNum="96" pc="268439979" symbol="nextLap"/>
 <entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\TriData.mc" lineNum="98" pc="268440010" symbol="nextLap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="24" pc="268440038" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="25" pc="268440040" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="26" pc="268440067" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="27" pc="268440102" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="28" pc="268440124" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="29" pc="268440141" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="30" pc="268440154" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="31" pc="268440172" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="35" pc="268440194" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="36" pc="268440212" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="40" pc="268440231" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="41" pc="268440258" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="42" pc="268440296" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="44" pc="268440334" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="46" pc="268440369" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="51" pc="268440388" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="52" pc="268440415" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="53" pc="268440453" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="55" pc="268440491" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="57" pc="268440526" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="62" pc="268440545" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="64" pc="268440572" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="65" pc="268440610" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="67" pc="268440648" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="69" pc="268440683" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="28" pc="268440038" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="29" pc="268440040" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="30" pc="268440067" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="31" pc="268440102" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="32" pc="268440124" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="33" pc="268440141" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="34" pc="268440154" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="35" pc="268440172" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="39" pc="268440194" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="40" pc="268440212" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="44" pc="268440231" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="45" pc="268440258" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="46" pc="268440275" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="47" pc="268440313" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="49" pc="268440351" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="51" pc="268440386" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="53" pc="268440402" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="54" pc="268440440" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="56" pc="268440478" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="58" pc="268440513" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="61" pc="268440526" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="66" pc="268440545" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="67" pc="268440572" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="68" pc="268440610" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="70" pc="268440648" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="72" pc="268440683" symbol="onKey"/>
 <entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="77" pc="268440702" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="80" pc="268440706" symbol="onTap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="82" pc="268440708" symbol="onTap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="85" pc="268440712" symbol="onSwipe"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="87" pc="268440714" symbol="onSwipe"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="90" pc="268440718" symbol="onHold"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="92" pc="268440720" symbol="onHold"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="95" pc="268440724" symbol="onRelease"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="97" pc="268440726" symbol="onRelease"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="115" pc="268440731" symbol="recordingtimercallback"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="117" pc="268440733" symbol="recordingtimercallback"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="121" pc="268440750" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="125" pc="268440752" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="127" pc="268440765" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="128" pc="268440799" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="135" pc="268440841" symbol="onShow"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="139" pc="268440844" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="141" pc="268440846" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="142" pc="268440882" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="144" pc="268440894" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="145" pc="268440906" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="149" pc="268440938" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="150" pc="268440976" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="151" pc="268440990" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="152" pc="268441004" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="156" pc="268441021" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="157" pc="268441031" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="158" pc="268441069" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="159" pc="268441109" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="161" pc="268441144" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="162" pc="268441184" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="163" pc="268441216" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="165" pc="268441226" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="172" pc="268441243" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="174" pc="268441245" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="175" pc="268441255" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="176" pc="268441255" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="178" pc="268441268" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="180" pc="268441287" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="181" pc="268441325" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="187" pc="268441353" symbol="onSnsr"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="194" pc="268441367" symbol="onExitSleep"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="198" pc="268441370" symbol="onEnterSleep"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="202" pc="268441373" symbol="drawGPS"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="203" pc="268441375" symbol="drawGPS"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="204" pc="268441392" symbol="drawGPS"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="206" pc="268441442" symbol="drawGPS"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="207" pc="268441485" symbol="drawGPS"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="210" pc="268441524" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="211" pc="268441526" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="212" pc="268441551" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="214" pc="268441561" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="217" pc="268441568" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="218" pc="268441608" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="219" pc="268441649" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="221" pc="268441662" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="222" pc="268441702" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="223" pc="268441743" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="225" pc="268441756" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="226" pc="268441796" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="227" pc="268441837" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="229" pc="268441850" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="230" pc="268441890" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="231" pc="268441931" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="233" pc="268441944" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="234" pc="268441984" symbol="drawSegments"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="237" pc="268442032" symbol="getSegmentColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="238" pc="268442034" symbol="getSegmentColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="239" pc="268442054" symbol="getSegmentColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="241" pc="268442090" symbol="getSegmentColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="243" pc="268442106" symbol="getSegmentColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="246" pc="268442120" symbol="drawTitleBar"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="247" pc="268442122" symbol="drawTitleBar"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="249" pc="268442166" symbol="drawTitleBar"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="251" pc="268442223" symbol="drawTitleBar"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="253" pc="268442259" symbol="drawTitleBar"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="256" pc="268442337" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="257" pc="268442339" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="261" pc="268442346" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="262" pc="268442399" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="264" pc="268442440" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="265" pc="268442489" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="267" pc="268442515" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="268" pc="268442532" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="269" pc="268442579" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="270" pc="268442623" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="273" pc="268442717" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="276" pc="268442816" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="277" pc="268442828" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="278" pc="268442866" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="279" pc="268442892" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="282" pc="268442997" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="285" pc="268443047" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="289" pc="268443080" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="290" pc="268443116" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="291" pc="268443218" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="292" pc="268443254" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="293" pc="268443317" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="294" pc="268443345" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="295" pc="268443381" symbol="drawDataFieldsInit"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="302" pc="268443414" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="303" pc="268443416" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="304" pc="268443442" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="306" pc="268443459" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="307" pc="268443485" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="308" pc="268443512" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="310" pc="268443528" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="311" pc="268443549" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="312" pc="268443574" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="313" pc="268443601" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="314" pc="268443639" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="315" pc="268443665" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="316" pc="268443690" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="319" pc="268443725" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="320" pc="268443736" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="321" pc="268443752" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="323" pc="268443807" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="329" pc="268443859" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="332" pc="268443911" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="335" pc="268443957" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="336" pc="268444001" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="339" pc="268444064" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="342" pc="268444133" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="343" pc="268444164" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="345" pc="268444171" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="346" pc="268444182" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="348" pc="268444203" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="351" pc="268444261" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="352" pc="268444280" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="354" pc="268444354" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="355" pc="268444394" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="356" pc="268444426" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="357" pc="268444460" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="358" pc="268444506" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="359" pc="268444531" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="362" pc="268444591" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="363" pc="268444631" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="364" pc="268444669" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="367" pc="268444708" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="368" pc="268444710" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="370" pc="268444765" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="371" pc="268444772" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="372" pc="268444808" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="374" pc="268444868" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="375" pc="268444904" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="376" pc="268444952" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="377" pc="268444988" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="379" pc="268445045" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="380" pc="268445073" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="381" pc="268445109" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="382" pc="268445141" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="383" pc="268445151" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="387" pc="268445155" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="388" pc="268445157" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="389" pc="268445174" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="390" pc="268445181" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="391" pc="268445188" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="392" pc="268445199" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="393" pc="268445209" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="395" pc="268445219" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="396" pc="268445239" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="397" pc="268445252" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="398" pc="268445265" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="399" pc="268445278" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="401" pc="268445297" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="402" pc="268445342" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="403" pc="268445361" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="404" pc="268445380" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="405" pc="268445405" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="409" pc="268445442" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="410" pc="268445477" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="411" pc="268445525" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="412" pc="268445533" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="413" pc="268445551" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="414" pc="268445603" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="415" pc="268445628" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="416" pc="268445647" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="417" pc="268445669" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="419" pc="268445744" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="420" pc="268445754" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="423" pc="268445767" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="424" pc="268445794" symbol="calculateLapPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="429" pc="268445804" symbol="changeReset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="430" pc="268445806" symbol="changeReset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="431" pc="268445823" symbol="changeReset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="432" pc="268445845" symbol="changeReset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="433" pc="268445862" symbol="changeReset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="434" pc="268445875" symbol="changeReset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="447" pc="268445896" symbol="laptimercallback"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="449" pc="268445898" symbol="laptimercallback"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="452" pc="268445915" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="453" pc="268445917" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="454" pc="268445951" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="457" pc="268445993" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="458" pc="268445995" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="459" pc="268446031" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="460" pc="268446043" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="461" pc="268446079" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="462" pc="268446169" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="463" pc="268446303" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="464" pc="268446320" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="467" pc="268446345" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="482" pc="268446375" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="483" pc="268446377" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="484" pc="268446388" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="488" pc="268446399" symbol="add"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="489" pc="268446401" symbol="add"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="490" pc="268446420" symbol="add"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="494" pc="268446452" symbol="reset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="495" pc="268446454" symbol="reset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="496" pc="268446484" symbol="reset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="498" pc="268446509" symbol="reset"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="502" pc="268446523" symbol="getData"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="503" pc="268446525" symbol="getData"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="10" pc="268446535" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="12" pc="268446537" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="13" pc="268446659" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="14" pc="268446659" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="16" pc="268446676" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="17" pc="268446684" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="18" pc="268446730" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="19" pc="268446878" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="20" pc="268446945" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="21" pc="268446969" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="24" pc="268447120" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="27" pc="268447268" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="28" pc="268447281" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="29" pc="268447288" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="30" pc="268447330" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="34" pc="268447375" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="37" pc="268447430" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="38" pc="268447432" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="39" pc="268447468" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="40" pc="268447480" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="43" pc="268447501" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="44" pc="268447503" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="45" pc="268447543" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="46" pc="268447546" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="48" pc="268447553" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="49" pc="268447560" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="50" pc="268447568" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="51" pc="268447577" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="53" pc="268447586" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="54" pc="268447634" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="55" pc="268447641" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="56" pc="268447667" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="59" pc="268447705" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="62" pc="268447711" symbol="splitStoredDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="68" pc="268447715" symbol="onCancel"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="69" pc="268447717" symbol="onCancel"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="72" pc="268447746" symbol="onAccept"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="73" pc="268447748" symbol="onAccept"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="75" pc="268447820" symbol="onAccept"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="77" pc="268447861" symbol="onAccept"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="12" pc="268447891" symbol="msToTime"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="13" pc="268447893" symbol="msToTime"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="14" pc="268447909" symbol="msToTime"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="15" pc="268447925" symbol="msToTime"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="17" pc="268447935" symbol="msToTime"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="20" pc="268448021" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="21" pc="268448023" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="22" pc="268448039" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="23" pc="268448055" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="24" pc="268448071" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="25" pc="268448081" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="27" pc="268448088" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="28" pc="268448099" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="31" pc="268448188" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="34" pc="268448288" symbol="msToTimeWithDecimals"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="37" pc="268448292" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="38" pc="268448294" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="39" pc="268448294" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="40" pc="268448294" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="41" pc="268448294" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="42" pc="268448294" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="44" pc="268448311" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="45" pc="268448318" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="46" pc="268448325" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="47" pc="268448349" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="48" pc="268448356" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="50" pc="268448370" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="51" pc="268448377" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="54" pc="268448388" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="55" pc="268448409" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="56" pc="268448423" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="57" pc="268448430" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="58" pc="268448440" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="59" pc="268448467" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="62" pc="268448483" symbol="convertSpeedToSwim"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="65" pc="268448555" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="66" pc="268448557" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="67" pc="268448557" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="68" pc="268448557" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="69" pc="268448557" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="71" pc="268448574" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="72" pc="268448581" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="73" pc="268448605" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="74" pc="268448612" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="75" pc="268448623" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="77" pc="268448633" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="79" pc="268448647" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="80" pc="268448654" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="81" pc="268448665" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="83" pc="268448675" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="85" pc="268448686" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="86" pc="268448707" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="89" pc="268448723" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="90" pc="268448741" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="91" pc="268448752" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="93" pc="268448773" symbol="convertSpeedToBike"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="96" pc="268448821" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="97" pc="268448823" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="98" pc="268448823" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="99" pc="268448823" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="100" pc="268448823" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="101" pc="268448823" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="103" pc="268448840" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="104" pc="268448847" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="105" pc="268448854" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="106" pc="268448878" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="107" pc="268448885" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="109" pc="268448899" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="110" pc="268448906" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="113" pc="268448917" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="114" pc="268448938" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="115" pc="268448952" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="116" pc="268448959" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="117" pc="268448969" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="118" pc="268448996" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="121" pc="268449012" symbol="convertSpeedToPace"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="125" pc="268449084" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="126" pc="268449086" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="127" pc="268449107" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="128" pc="268449117" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="129" pc="268449127" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="130" pc="268449140" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="131" pc="268449153" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="133" pc="268449196" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="136" pc="268449203" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="137" pc="268449205" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="139" pc="268449205" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="140" pc="268449212" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="142" pc="268449222" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="143" pc="268449239" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="144" pc="268449263" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="146" pc="268449276" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="151" pc="268449286" symbol="convertDistance"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="154" pc="268449338" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="155" pc="268449340" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="157" pc="268449340" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="158" pc="268449347" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="161" pc="268449357" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="162" pc="268449374" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="163" pc="268449398" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="165" pc="268449411" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="168" pc="268449421" symbol="convertToMeters"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="171" pc="268449425" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="174" pc="268449427" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="175" pc="268449427" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="177" pc="268449446" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="178" pc="268449459" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="179" pc="268449467" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="180" pc="268449499" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="182" pc="268449508" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="190" pc="268449757" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="198" pc="268450001" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="208" pc="268450303" symbol="drawChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="211" pc="268450318" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="214" pc="268450320" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="215" pc="268450320" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="217" pc="268450339" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="218" pc="268450352" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="219" pc="268450360" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="220" pc="268450392" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="222" pc="268450401" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="230" pc="268450650" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="238" pc="268450894" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="248" pc="268451196" symbol="drawReverseChevron"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="251" pc="268451211" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="252" pc="268451213" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="253" pc="268451213" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="254" pc="268451220" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="256" pc="268451240" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="259" pc="268451244" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="260" pc="268451268" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="262" pc="268451308" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="264" pc="268451324" symbol="getGPSQualityColour"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="267" pc="268451338" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="268" pc="268451340" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="269" pc="268451347" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="270" pc="268451360" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="271" pc="268451367" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="272" pc="268451391" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="273" pc="268451401" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="274" pc="268451411" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="277" pc="268451437" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="278" pc="268451448" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="280" pc="268451457" symbol="computeAverageSpeed"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="14" pc="268451464" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="16" pc="268451466" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="17" pc="268451513" symbol="onKey"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="27" pc="268451533" symbol="onLayout"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="31" pc="268451536" symbol="onShow"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="35" pc="268451539" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="36" pc="268451541" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="37" pc="268451577" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="39" pc="268451589" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="41" pc="268451644" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="42" pc="268451680" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="43" pc="268451779" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="45" pc="268451856" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="47" pc="268451942" symbol="onUpdate"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="51" pc="268451957" symbol="onExitSleep"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="55" pc="268451960" symbol="onEnterSleep"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="58" pc="268451963" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="59" pc="268451965" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="62" pc="268451996" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="63" pc="268452051" symbol="drawDataFields"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="76" pc="268452129" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="77" pc="268452131" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="78" pc="268452167" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="79" pc="268452212" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="80" pc="268452238" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="81" pc="268452295" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="82" pc="268452323" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="83" pc="268452359" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="84" pc="268452391" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="85" pc="268452401" symbol="drawDataField"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="11" pc="268452406" symbol="getIndex"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="12" pc="268452408" symbol="getIndex"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="13" pc="268452430" symbol="getIndex"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="16" pc="268452434" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="17" pc="268452436" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="18" pc="268452446" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="19" pc="268452456" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="21" pc="268452466" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="22" pc="268452473" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="23" pc="268452497" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="26" pc="268452524" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="27" pc="268452537" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="30" pc="268452560" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="31" pc="268452573" symbol="initialize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="35" pc="268452590" symbol="getDrawable"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="36" pc="268452592" symbol="getDrawable"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="39" pc="268452740" symbol="getValue"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="40" pc="268452742" symbol="getValue"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="43" pc="268452764" symbol="getSize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="44" pc="268452766" symbol="getSize"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="44" pc="268452800" symbol="initaliseDiscipline"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="45" pc="268452802" symbol="initaliseDiscipline"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="46" pc="268452812" symbol="initaliseDiscipline"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="49" pc="268452847" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="50" pc="268452849" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="51" pc="268452952" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="52" pc="268452970" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="53" pc="268452993" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="54" pc="268453068" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="55" pc="268453172" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="57" pc="268453185" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="58" pc="268453189" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="59" pc="268453189" symbol="onBegin"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="66" pc="268453223" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="67" pc="268453225" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="68" pc="268453248" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="69" pc="268453323" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="71" pc="268453359" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="72" pc="268453363" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="73" pc="268453367" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="74" pc="268453367" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="78" pc="268453394" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="79" pc="268453394" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="84" pc="268453421" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="85" pc="268453430" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="88" pc="268453452" symbol="onEnd"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="91" pc="268453462" symbol="addRunLap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="92" pc="268453464" symbol="addRunLap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="93" pc="268453500" symbol="addRunLap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="94" pc="268453504" symbol="addRunLap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="100" pc="268453525" symbol="addRunLap"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="103" pc="268453529" symbol="onTick"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="106" pc="268453532" symbol="getStageName"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="107" pc="268453534" symbol="getStageName"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="13" pc="268453554" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="14" pc="268453556" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="15" pc="268453567" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="16" pc="268453651" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="18" pc="268453681" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="19" pc="268453765" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="21" pc="268453795" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="22" pc="268453879" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="24" pc="268453909" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="25" pc="268453993" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="28" pc="268454012" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="29" pc="268454096" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="37" pc="268454114" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="38" pc="268454116" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="39" pc="268454127" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="40" pc="268454162" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="43" pc="268454192" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="44" pc="268454227" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="47" pc="268454246" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="48" pc="268454281" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="56" pc="268454299" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="57" pc="268454301" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="58" pc="268454312" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="59" pc="268454347" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="62" pc="268454377" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="63" pc="268454412" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="72" pc="268454433" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="73" pc="268454435" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="74" pc="268454446" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="75" pc="268454481" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="78" pc="268454511" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="79" pc="268454546" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="87" pc="268454567" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="88" pc="268454569" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="89" pc="268454580" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="90" pc="268454664" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="93" pc="268454694" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="94" pc="268454778" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="97" pc="268454797" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="105" pc="268454871" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="106" pc="268454873" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="107" pc="268454884" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="108" pc="268454916" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="111" pc="268454935" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="112" pc="268454967" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="119" pc="268454985" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="120" pc="268454987" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="121" pc="268454998" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="122" pc="268455030" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="125" pc="268455049" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="126" pc="268455081" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="134" pc="268455099" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="135" pc="268455101" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="136" pc="268455112" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="137" pc="268455147" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="140" pc="268455177" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="141" pc="268455212" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="144" pc="268455231" symbol="onMenuItem"/>
-<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="145" pc="268455266" symbol="onMenuItem"/>
-<entry filename="Rez" lineNum="37" pc="268455284" symbol="initialize"/>
-<entry filename="Rez" lineNum="38" pc="268455286" symbol="initialize"/>
-<entry filename="Rez" lineNum="39" pc="268455304" symbol="initialize"/>
-<entry filename="Rez" lineNum="39" pc="268455357" symbol="initialize"/>
-<entry filename="Rez" lineNum="40" pc="268455379" symbol="initialize"/>
-<entry filename="Rez" lineNum="41" pc="268455401" symbol="initialize"/>
-<entry filename="Rez" lineNum="42" pc="268455423" symbol="initialize"/>
-<entry filename="Rez" lineNum="43" pc="268455445" symbol="initialize"/>
-<entry filename="Rez" lineNum="52" pc="268455468" symbol="initialize"/>
-<entry filename="Rez" lineNum="53" pc="268455470" symbol="initialize"/>
-<entry filename="Rez" lineNum="54" pc="268455488" symbol="initialize"/>
-<entry filename="Rez" lineNum="54" pc="268455541" symbol="initialize"/>
-<entry filename="Rez" lineNum="55" pc="268455563" symbol="initialize"/>
-<entry filename="Rez" lineNum="56" pc="268455585" symbol="initialize"/>
-<entry filename="Rez" lineNum="65" pc="268455608" symbol="initialize"/>
-<entry filename="Rez" lineNum="66" pc="268455610" symbol="initialize"/>
-<entry filename="Rez" lineNum="67" pc="268455628" symbol="initialize"/>
-<entry filename="Rez" lineNum="67" pc="268455681" symbol="initialize"/>
-<entry filename="Rez" lineNum="68" pc="268455703" symbol="initialize"/>
-<entry filename="Rez" lineNum="69" pc="268455725" symbol="initialize"/>
-<entry filename="Rez" lineNum="78" pc="268455748" symbol="initialize"/>
-<entry filename="Rez" lineNum="79" pc="268455750" symbol="initialize"/>
-<entry filename="Rez" lineNum="80" pc="268455768" symbol="initialize"/>
-<entry filename="Rez" lineNum="80" pc="268455821" symbol="initialize"/>
-<entry filename="Rez" lineNum="81" pc="268455843" symbol="initialize"/>
-<entry filename="Rez" lineNum="90" pc="268455866" symbol="initialize"/>
-<entry filename="Rez" lineNum="91" pc="268455868" symbol="initialize"/>
-<entry filename="Rez" lineNum="92" pc="268455886" symbol="initialize"/>
-<entry filename="Rez" lineNum="92" pc="268455939" symbol="initialize"/>
-<entry filename="Rez" lineNum="93" pc="268455961" symbol="initialize"/>
-<entry filename="Rez" lineNum="94" pc="268455983" symbol="initialize"/>
-<entry filename="Rez" lineNum="103" pc="268456006" symbol="initialize"/>
-<entry filename="Rez" lineNum="104" pc="268456008" symbol="initialize"/>
-<entry filename="Rez" lineNum="105" pc="268456026" symbol="initialize"/>
-<entry filename="Rez" lineNum="105" pc="268456079" symbol="initialize"/>
-<entry filename="Rez" lineNum="106" pc="268456101" symbol="initialize"/>
-<entry filename="Rez" lineNum="115" pc="268456124" symbol="initialize"/>
-<entry filename="Rez" lineNum="116" pc="268456126" symbol="initialize"/>
-<entry filename="Rez" lineNum="117" pc="268456144" symbol="initialize"/>
-<entry filename="Rez" lineNum="117" pc="268456197" symbol="initialize"/>
-<entry filename="Rez" lineNum="118" pc="268456219" symbol="initialize"/>
-<entry filename="Rez" lineNum="127" pc="268456242" symbol="initialize"/>
-<entry filename="Rez" lineNum="128" pc="268456244" symbol="initialize"/>
-<entry filename="Rez" lineNum="129" pc="268456262" symbol="initialize"/>
-<entry filename="Rez" lineNum="129" pc="268456315" symbol="initialize"/>
-<entry filename="Rez" lineNum="130" pc="268456337" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="79" pc="268440729" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="80" pc="268440746" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="81" pc="268440753" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="82" pc="268440760" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="83" pc="268440771" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="84" pc="268440781" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="87" pc="268440791" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="88" pc="268440836" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="89" pc="268440855" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="90" pc="268440874" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="91" pc="268440899" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="96" pc="268440936" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="98" pc="268440954" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="100" pc="268440964" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="102" pc="268440989" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="104" pc="268441008" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="105" pc="268441030" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="111" pc="268441102" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="112" pc="268441129" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="114" pc="268441156" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="122" pc="268441175" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="125" pc="268441179" symbol="onTap"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="127" pc="268441181" symbol="onTap"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="130" pc="268441185" symbol="onSwipe"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="132" pc="268441187" symbol="onSwipe"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="135" pc="268441191" symbol="onHold"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="137" pc="268441193" symbol="onHold"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="140" pc="268441197" symbol="onRelease"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="142" pc="268441199" symbol="onRelease"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="159" pc="268441204" symbol="recordingtimercallback"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="161" pc="268441206" symbol="recordingtimercallback"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="165" pc="268441223" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="169" pc="268441225" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="171" pc="268441238" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="172" pc="268441272" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="179" pc="268441314" symbol="onShow"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="183" pc="268441317" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="185" pc="268441319" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="186" pc="268441355" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="188" pc="268441367" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="189" pc="268441379" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="193" pc="268441411" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="194" pc="268441449" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="195" pc="268441463" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="196" pc="268441477" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="200" pc="268441494" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="201" pc="268441504" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="202" pc="268441542" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="203" pc="268441582" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="205" pc="268441617" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="206" pc="268441657" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="207" pc="268441689" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="209" pc="268441699" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="216" pc="268441716" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="218" pc="268441718" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="219" pc="268441728" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="220" pc="268441728" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="222" pc="268441741" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="224" pc="268441760" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="225" pc="268441798" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="231" pc="268441826" symbol="onSnsr"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="238" pc="268441840" symbol="onExitSleep"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="242" pc="268441843" symbol="onEnterSleep"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="246" pc="268441846" symbol="drawGPS"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="247" pc="268441848" symbol="drawGPS"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="248" pc="268441865" symbol="drawGPS"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="250" pc="268441915" symbol="drawGPS"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="251" pc="268441958" symbol="drawGPS"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="254" pc="268441997" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="255" pc="268441999" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="256" pc="268442024" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="258" pc="268442034" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="261" pc="268442041" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="262" pc="268442081" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="263" pc="268442122" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="265" pc="268442135" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="266" pc="268442175" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="267" pc="268442216" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="269" pc="268442229" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="270" pc="268442269" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="271" pc="268442310" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="273" pc="268442323" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="274" pc="268442363" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="275" pc="268442404" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="277" pc="268442417" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="278" pc="268442457" symbol="drawSegments"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="281" pc="268442505" symbol="getSegmentColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="282" pc="268442507" symbol="getSegmentColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="283" pc="268442527" symbol="getSegmentColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="285" pc="268442563" symbol="getSegmentColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="287" pc="268442579" symbol="getSegmentColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="290" pc="268442593" symbol="drawTitleBar"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="291" pc="268442595" symbol="drawTitleBar"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="293" pc="268442639" symbol="drawTitleBar"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="295" pc="268442696" symbol="drawTitleBar"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="297" pc="268442732" symbol="drawTitleBar"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="300" pc="268442810" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="301" pc="268442812" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="305" pc="268442819" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="306" pc="268442872" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="308" pc="268442913" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="309" pc="268442962" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="311" pc="268442988" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="312" pc="268443005" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="313" pc="268443052" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="314" pc="268443096" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="317" pc="268443190" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="320" pc="268443289" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="321" pc="268443301" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="322" pc="268443339" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="323" pc="268443365" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="326" pc="268443470" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="329" pc="268443520" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="333" pc="268443553" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="334" pc="268443589" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="335" pc="268443691" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="336" pc="268443727" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="337" pc="268443790" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="338" pc="268443818" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="339" pc="268443854" symbol="drawDataFieldsInit"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="346" pc="268443887" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="347" pc="268443889" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="348" pc="268443915" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="350" pc="268443932" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="351" pc="268443958" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="352" pc="268443985" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="354" pc="268444001" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="355" pc="268444022" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="356" pc="268444047" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="357" pc="268444074" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="358" pc="268444112" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="359" pc="268444138" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="360" pc="268444163" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="363" pc="268444198" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="364" pc="268444209" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="365" pc="268444225" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="367" pc="268444280" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="373" pc="268444332" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="376" pc="268444384" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="379" pc="268444430" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="380" pc="268444474" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="383" pc="268444537" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="386" pc="268444606" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="387" pc="268444637" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="389" pc="268444644" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="390" pc="268444655" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="392" pc="268444676" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="395" pc="268444734" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="396" pc="268444753" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="398" pc="268444827" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="399" pc="268444867" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="400" pc="268444899" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="401" pc="268444933" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="402" pc="268444979" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="403" pc="268445004" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="406" pc="268445064" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="407" pc="268445104" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="408" pc="268445142" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="411" pc="268445181" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="412" pc="268445183" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="414" pc="268445238" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="415" pc="268445245" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="416" pc="268445281" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="418" pc="268445341" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="419" pc="268445377" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="420" pc="268445425" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="421" pc="268445461" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="423" pc="268445518" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="424" pc="268445546" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="425" pc="268445582" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="426" pc="268445614" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="427" pc="268445624" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="431" pc="268445628" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="432" pc="268445630" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="433" pc="268445647" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="434" pc="268445654" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="435" pc="268445661" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="436" pc="268445672" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="437" pc="268445682" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="439" pc="268445692" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="440" pc="268445712" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="441" pc="268445725" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="442" pc="268445738" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="443" pc="268445751" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="445" pc="268445770" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="446" pc="268445815" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="447" pc="268445834" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="448" pc="268445853" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="449" pc="268445878" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="453" pc="268445915" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="454" pc="268445950" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="455" pc="268445998" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="456" pc="268446006" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="457" pc="268446024" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="458" pc="268446076" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="459" pc="268446101" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="460" pc="268446120" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="461" pc="268446142" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="463" pc="268446217" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="464" pc="268446227" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="467" pc="268446240" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="468" pc="268446267" symbol="calculateLapPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="473" pc="268446277" symbol="changeReset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="474" pc="268446279" symbol="changeReset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="475" pc="268446296" symbol="changeReset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="476" pc="268446318" symbol="changeReset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="477" pc="268446335" symbol="changeReset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="478" pc="268446348" symbol="changeReset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="491" pc="268446369" symbol="laptimercallback"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="493" pc="268446371" symbol="laptimercallback"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="496" pc="268446388" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="497" pc="268446390" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="498" pc="268446424" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="501" pc="268446466" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="502" pc="268446468" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="503" pc="268446504" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="504" pc="268446516" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="505" pc="268446552" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="506" pc="268446648" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="507" pc="268446788" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="508" pc="268446872" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="511" pc="268446956" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="512" pc="268446973" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="515" pc="268446998" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="530" pc="268447028" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="531" pc="268447030" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="532" pc="268447041" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="536" pc="268447052" symbol="add"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="537" pc="268447054" symbol="add"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="538" pc="268447073" symbol="add"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="542" pc="268447105" symbol="reset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="543" pc="268447107" symbol="reset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="544" pc="268447137" symbol="reset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="546" pc="268447162" symbol="reset"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="550" pc="268447176" symbol="getData"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\RecordingView.mc" lineNum="551" pc="268447178" symbol="getData"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="10" pc="268447188" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="12" pc="268447190" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="13" pc="268447312" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="14" pc="268447312" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="16" pc="268447329" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="17" pc="268447337" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="18" pc="268447383" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="19" pc="268447531" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="20" pc="268447598" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="21" pc="268447622" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="24" pc="268447773" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="27" pc="268447921" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="28" pc="268447934" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="29" pc="268447941" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="30" pc="268447983" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="34" pc="268448028" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="37" pc="268448083" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="38" pc="268448085" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="39" pc="268448121" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="40" pc="268448133" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="43" pc="268448154" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="44" pc="268448156" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="45" pc="268448196" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="46" pc="268448199" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="48" pc="268448206" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="49" pc="268448213" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="50" pc="268448221" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="51" pc="268448230" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="53" pc="268448239" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="54" pc="268448287" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="55" pc="268448294" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="56" pc="268448320" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="59" pc="268448358" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="62" pc="268448364" symbol="splitStoredDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="68" pc="268448368" symbol="onCancel"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="69" pc="268448370" symbol="onCancel"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="72" pc="268448399" symbol="onAccept"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="73" pc="268448401" symbol="onAccept"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="75" pc="268448473" symbol="onAccept"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Pickers\\DistancePicker.mc" lineNum="77" pc="268448514" symbol="onAccept"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="12" pc="268448544" symbol="msToTime"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="13" pc="268448546" symbol="msToTime"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="14" pc="268448562" symbol="msToTime"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="15" pc="268448578" symbol="msToTime"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="17" pc="268448588" symbol="msToTime"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="20" pc="268448674" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="21" pc="268448676" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="22" pc="268448692" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="23" pc="268448708" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="24" pc="268448724" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="25" pc="268448734" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="27" pc="268448741" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="28" pc="268448752" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="31" pc="268448841" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="34" pc="268448941" symbol="msToTimeWithDecimals"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="37" pc="268448945" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="38" pc="268448947" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="39" pc="268448947" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="40" pc="268448947" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="41" pc="268448947" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="42" pc="268448947" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="44" pc="268448964" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="45" pc="268448971" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="46" pc="268448978" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="47" pc="268449002" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="48" pc="268449009" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="50" pc="268449023" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="51" pc="268449030" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="54" pc="268449041" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="55" pc="268449062" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="56" pc="268449076" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="57" pc="268449083" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="58" pc="268449093" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="59" pc="268449120" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="62" pc="268449136" symbol="convertSpeedToSwim"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="65" pc="268449208" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="66" pc="268449210" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="67" pc="268449210" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="68" pc="268449210" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="69" pc="268449210" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="71" pc="268449227" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="72" pc="268449234" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="73" pc="268449258" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="74" pc="268449265" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="75" pc="268449276" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="77" pc="268449286" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="79" pc="268449300" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="80" pc="268449307" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="81" pc="268449318" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="83" pc="268449328" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="85" pc="268449339" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="86" pc="268449360" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="89" pc="268449376" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="90" pc="268449394" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="91" pc="268449405" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="93" pc="268449426" symbol="convertSpeedToBike"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="96" pc="268449474" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="97" pc="268449476" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="98" pc="268449476" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="99" pc="268449476" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="100" pc="268449476" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="101" pc="268449476" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="103" pc="268449493" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="104" pc="268449500" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="105" pc="268449507" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="106" pc="268449531" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="107" pc="268449538" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="109" pc="268449552" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="110" pc="268449559" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="113" pc="268449570" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="114" pc="268449591" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="115" pc="268449605" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="116" pc="268449612" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="117" pc="268449622" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="118" pc="268449649" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="121" pc="268449665" symbol="convertSpeedToPace"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="125" pc="268449737" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="126" pc="268449739" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="127" pc="268449760" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="128" pc="268449770" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="129" pc="268449780" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="130" pc="268449793" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="131" pc="268449806" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="133" pc="268449849" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="136" pc="268449856" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="137" pc="268449858" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="139" pc="268449858" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="140" pc="268449865" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="142" pc="268449875" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="143" pc="268449892" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="144" pc="268449916" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="146" pc="268449929" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="151" pc="268449939" symbol="convertDistance"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="154" pc="268449991" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="155" pc="268449993" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="157" pc="268449993" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="158" pc="268450000" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="161" pc="268450010" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="162" pc="268450027" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="163" pc="268450051" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="165" pc="268450064" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="168" pc="268450074" symbol="convertToMeters"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="171" pc="268450078" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="174" pc="268450080" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="175" pc="268450080" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="177" pc="268450099" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="178" pc="268450112" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="179" pc="268450120" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="180" pc="268450152" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="182" pc="268450161" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="190" pc="268450410" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="198" pc="268450654" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="208" pc="268450956" symbol="drawChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="211" pc="268450971" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="214" pc="268450973" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="215" pc="268450973" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="217" pc="268450992" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="218" pc="268451005" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="219" pc="268451013" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="220" pc="268451045" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="222" pc="268451054" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="230" pc="268451303" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="238" pc="268451547" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="248" pc="268451849" symbol="drawReverseChevron"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="251" pc="268451864" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="252" pc="268451866" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="253" pc="268451866" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="254" pc="268451873" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="256" pc="268451893" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="259" pc="268451897" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="260" pc="268451921" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="262" pc="268451961" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="264" pc="268451977" symbol="getGPSQualityColour"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="267" pc="268451991" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="268" pc="268451993" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="269" pc="268452000" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="270" pc="268452013" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="271" pc="268452020" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="272" pc="268452044" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="273" pc="268452054" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="274" pc="268452064" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="277" pc="268452090" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="278" pc="268452101" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Functions.mc" lineNum="280" pc="268452110" symbol="computeAverageSpeed"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="14" pc="268452117" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="16" pc="268452119" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="17" pc="268452166" symbol="onKey"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="27" pc="268452186" symbol="onLayout"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="31" pc="268452189" symbol="onShow"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="35" pc="268452192" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="36" pc="268452194" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="37" pc="268452230" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="39" pc="268452242" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="41" pc="268452297" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="42" pc="268452333" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="43" pc="268452432" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="45" pc="268452509" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="47" pc="268452595" symbol="onUpdate"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="51" pc="268452610" symbol="onExitSleep"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="55" pc="268452613" symbol="onEnterSleep"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="58" pc="268452616" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="59" pc="268452618" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="62" pc="268452649" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="63" pc="268452704" symbol="drawDataFields"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="76" pc="268452782" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="77" pc="268452784" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="78" pc="268452820" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="79" pc="268452865" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="80" pc="268452891" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="81" pc="268452948" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="82" pc="268452976" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="83" pc="268453012" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="84" pc="268453044" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\FinishView.mc" lineNum="85" pc="268453054" symbol="drawDataField"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="11" pc="268453059" symbol="getIndex"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="12" pc="268453061" symbol="getIndex"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="13" pc="268453083" symbol="getIndex"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="16" pc="268453087" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="17" pc="268453089" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="18" pc="268453099" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="19" pc="268453109" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="21" pc="268453119" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="22" pc="268453126" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="23" pc="268453150" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="26" pc="268453177" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="27" pc="268453190" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="30" pc="268453213" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="31" pc="268453226" symbol="initialize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="35" pc="268453243" symbol="getDrawable"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="36" pc="268453245" symbol="getDrawable"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="39" pc="268453393" symbol="getValue"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="40" pc="268453395" symbol="getValue"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="43" pc="268453417" symbol="getSize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Factories\\NumberFactory.mc" lineNum="44" pc="268453419" symbol="getSize"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="44" pc="268453453" symbol="initaliseDiscipline"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="45" pc="268453455" symbol="initaliseDiscipline"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="46" pc="268453465" symbol="initaliseDiscipline"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="49" pc="268453500" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="50" pc="268453502" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="51" pc="268453605" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="52" pc="268453623" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="53" pc="268453646" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="54" pc="268453721" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="55" pc="268453825" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="57" pc="268453838" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="58" pc="268453842" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="59" pc="268453842" symbol="onBegin"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="66" pc="268453876" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="67" pc="268453878" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="68" pc="268453901" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="69" pc="268453976" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="71" pc="268454012" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="72" pc="268454016" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="73" pc="268454020" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="74" pc="268454020" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="78" pc="268454047" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="79" pc="268454047" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="84" pc="268454074" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="85" pc="268454083" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="88" pc="268454105" symbol="onEnd"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="91" pc="268454115" symbol="addRunLap"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="92" pc="268454117" symbol="addRunLap"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="93" pc="268454153" symbol="addRunLap"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="94" pc="268454157" symbol="addRunLap"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="100" pc="268454178" symbol="addRunLap"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="103" pc="268454182" symbol="onTick"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="106" pc="268454185" symbol="getStageName"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\Discipline.mc" lineNum="107" pc="268454187" symbol="getStageName"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="13" pc="268454207" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="14" pc="268454209" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="15" pc="268454220" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="16" pc="268454304" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="18" pc="268454334" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="19" pc="268454418" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="21" pc="268454448" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="22" pc="268454532" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="24" pc="268454562" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="25" pc="268454646" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="28" pc="268454665" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="29" pc="268454749" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="37" pc="268454767" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="38" pc="268454769" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="39" pc="268454780" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="40" pc="268454815" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="43" pc="268454845" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="44" pc="268454880" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="47" pc="268454899" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="48" pc="268454934" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="56" pc="268454952" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="57" pc="268454954" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="58" pc="268454965" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="59" pc="268455000" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="62" pc="268455030" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="63" pc="268455065" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="72" pc="268455086" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="73" pc="268455088" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="74" pc="268455099" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="75" pc="268455134" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="78" pc="268455164" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="79" pc="268455199" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="87" pc="268455220" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="88" pc="268455222" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="89" pc="268455233" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="90" pc="268455317" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="93" pc="268455347" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="94" pc="268455431" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="97" pc="268455450" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="105" pc="268455524" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="106" pc="268455526" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="107" pc="268455537" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="108" pc="268455569" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="111" pc="268455588" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="112" pc="268455620" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="119" pc="268455638" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="120" pc="268455640" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="121" pc="268455651" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="122" pc="268455683" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="125" pc="268455702" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="126" pc="268455734" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="134" pc="268455752" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="135" pc="268455754" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="136" pc="268455765" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="137" pc="268455800" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="140" pc="268455830" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="141" pc="268455865" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="144" pc="268455884" symbol="onMenuItem"/>
+<entry filename="C:\\apps\\ConnectIQ\\TriathlonApp\\source\\ConfigureView.mc" lineNum="145" pc="268455919" symbol="onMenuItem"/>
+<entry filename="Rez" lineNum="37" pc="268455937" symbol="initialize"/>
+<entry filename="Rez" lineNum="38" pc="268455939" symbol="initialize"/>
+<entry filename="Rez" lineNum="39" pc="268455957" symbol="initialize"/>
+<entry filename="Rez" lineNum="39" pc="268456010" symbol="initialize"/>
+<entry filename="Rez" lineNum="40" pc="268456032" symbol="initialize"/>
+<entry filename="Rez" lineNum="41" pc="268456054" symbol="initialize"/>
+<entry filename="Rez" lineNum="42" pc="268456076" symbol="initialize"/>
+<entry filename="Rez" lineNum="43" pc="268456098" symbol="initialize"/>
+<entry filename="Rez" lineNum="52" pc="268456121" symbol="initialize"/>
+<entry filename="Rez" lineNum="53" pc="268456123" symbol="initialize"/>
+<entry filename="Rez" lineNum="54" pc="268456141" symbol="initialize"/>
+<entry filename="Rez" lineNum="54" pc="268456194" symbol="initialize"/>
+<entry filename="Rez" lineNum="55" pc="268456216" symbol="initialize"/>
+<entry filename="Rez" lineNum="56" pc="268456238" symbol="initialize"/>
+<entry filename="Rez" lineNum="65" pc="268456261" symbol="initialize"/>
+<entry filename="Rez" lineNum="66" pc="268456263" symbol="initialize"/>
+<entry filename="Rez" lineNum="67" pc="268456281" symbol="initialize"/>
+<entry filename="Rez" lineNum="67" pc="268456334" symbol="initialize"/>
+<entry filename="Rez" lineNum="68" pc="268456356" symbol="initialize"/>
+<entry filename="Rez" lineNum="69" pc="268456378" symbol="initialize"/>
+<entry filename="Rez" lineNum="78" pc="268456401" symbol="initialize"/>
+<entry filename="Rez" lineNum="79" pc="268456403" symbol="initialize"/>
+<entry filename="Rez" lineNum="80" pc="268456421" symbol="initialize"/>
+<entry filename="Rez" lineNum="80" pc="268456474" symbol="initialize"/>
+<entry filename="Rez" lineNum="81" pc="268456496" symbol="initialize"/>
+<entry filename="Rez" lineNum="90" pc="268456519" symbol="initialize"/>
+<entry filename="Rez" lineNum="91" pc="268456521" symbol="initialize"/>
+<entry filename="Rez" lineNum="92" pc="268456539" symbol="initialize"/>
+<entry filename="Rez" lineNum="92" pc="268456592" symbol="initialize"/>
+<entry filename="Rez" lineNum="93" pc="268456614" symbol="initialize"/>
+<entry filename="Rez" lineNum="94" pc="268456636" symbol="initialize"/>
+<entry filename="Rez" lineNum="103" pc="268456659" symbol="initialize"/>
+<entry filename="Rez" lineNum="104" pc="268456661" symbol="initialize"/>
+<entry filename="Rez" lineNum="105" pc="268456679" symbol="initialize"/>
+<entry filename="Rez" lineNum="105" pc="268456732" symbol="initialize"/>
+<entry filename="Rez" lineNum="106" pc="268456754" symbol="initialize"/>
+<entry filename="Rez" lineNum="115" pc="268456777" symbol="initialize"/>
+<entry filename="Rez" lineNum="116" pc="268456779" symbol="initialize"/>
+<entry filename="Rez" lineNum="117" pc="268456797" symbol="initialize"/>
+<entry filename="Rez" lineNum="117" pc="268456850" symbol="initialize"/>
+<entry filename="Rez" lineNum="118" pc="268456872" symbol="initialize"/>
+<entry filename="Rez" lineNum="127" pc="268456895" symbol="initialize"/>
+<entry filename="Rez" lineNum="128" pc="268456897" symbol="initialize"/>
+<entry filename="Rez" lineNum="129" pc="268456915" symbol="initialize"/>
+<entry filename="Rez" lineNum="129" pc="268456968" symbol="initialize"/>
+<entry filename="Rez" lineNum="130" pc="268456990" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389101" method="true" symbol="onSwipe"/>
 <entry field="true" id="19" symbol="LapTime"/>
-<entry field="true" id="64" object="true" symbol="RunSettings"/>
-<entry field="true" id="91" symbol="recordingtimer"/>
-<entry field="true" id="59" symbol="StartIcon"/>
-<entry id="50" method="true" symbol="configureDisciplines"/>
-<entry id="128" method="true" symbol="getData"/>
-<entry id="146" method="true" symbol="initaliseDiscipline"/>
-<entry field="true" id="70" symbol="errorMessage"/>
-<entry field="true" id="55" symbol="SwimIcon"/>
-<entry field="true" id="144" symbol="currentStage"/>
-<entry id="112" method="true" symbol="getIndex"/>
-<entry field="true" id="24" symbol="change"/>
+<entry field="true" id="68" object="true" symbol="RunSettings"/>
+<entry field="true" id="95" symbol="recordingtimer"/>
+<entry field="true" id="63" symbol="StartIcon"/>
+<entry id="54" method="true" symbol="configureDisciplines"/>
+<entry id="130" method="true" symbol="getData"/>
+<entry id="148" method="true" symbol="initaliseDiscipline"/>
+<entry field="true" id="74" symbol="errorMessage"/>
+<entry field="true" id="59" symbol="SwimIcon"/>
+<entry field="true" id="146" symbol="currentStage"/>
+<entry id="114" method="true" symbol="getIndex"/>
+<entry field="true" id="25" symbol="change"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry field="true" id="71" symbol="distancePickerTitle"/>
-<entry id="135" method="true" symbol="getMinutesPerKmOrMile"/>
-<entry id="52" method="true" symbol="nextLap"/>
-<entry field="true" id="63" object="true" symbol="ModeMenu"/>
-<entry field="true" id="72" symbol="Duathlon"/>
-<entry field="true" id="78" symbol="AutoLapDistance"/>
-<entry id="35" object="true" symbol="FinishView"/>
-<entry field="true" id="95" symbol="lapInitTime"/>
-<entry id="100" method="true" symbol="getSegmentColour"/>
-<entry field="true" id="93" symbol="string_HR"/>
-<entry id="40" object="true" symbol="FondEcranMenuInputDelegate"/>
+<entry field="true" id="75" symbol="distancePickerTitle"/>
+<entry id="137" method="true" symbol="getMinutesPerKmOrMile"/>
+<entry id="56" method="true" symbol="nextLap"/>
+<entry field="true" id="67" object="true" symbol="ModeMenu"/>
+<entry field="true" id="76" symbol="Duathlon"/>
+<entry field="true" id="82" symbol="AutoLapDistance"/>
+<entry id="39" object="true" symbol="FinishView"/>
+<entry field="true" id="29" symbol="lapInitTime"/>
+<entry id="102" method="true" symbol="getSegmentColour"/>
+<entry field="true" id="97" symbol="string_HR"/>
+<entry id="44" object="true" symbol="FondEcranMenuInputDelegate"/>
 <entry id="8389642" symbol="title"/>
 <entry id="8389629" method="true" symbol="getValue"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry field="true" id="86" symbol="Triathlon"/>
-<entry id="111" symbol="mFormatString"/>
-<entry field="true" id="73" symbol="kilometers"/>
-<entry field="true" id="58" symbol="TransIcon"/>
-<entry field="true" id="120" symbol="refreshtimer"/>
-<entry field="true" id="118" symbol="string_distance"/>
+<entry field="true" id="90" symbol="Triathlon"/>
+<entry id="113" symbol="mFormatString"/>
+<entry field="true" id="77" symbol="kilometers"/>
+<entry field="true" id="62" symbol="TransIcon"/>
+<entry field="true" id="122" symbol="refreshtimer"/>
+<entry field="true" id="120" symbol="string_distance"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
 <entry field="true" id="16" symbol="vibrateData"/>
-<entry field="true" id="62" object="true" symbol="MainMenu"/>
+<entry field="true" id="66" object="true" symbol="MainMenu"/>
 <entry id="13" object="true" symbol="TriathlonViewInputDelegate"/>
 <entry field="true" id="17" symbol="vibrateData1"/>
-<entry field="true" id="145" symbol="currentIcon"/>
+<entry field="true" id="147" symbol="currentIcon"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8388643" symbol="Sensor"/>
-<entry field="true" id="30" symbol="MINUTE_FORMAT"/>
+<entry field="true" id="34" symbol="MINUTE_FORMAT"/>
 <entry id="8388764" symbol="format"/>
-<entry id="136" method="true" symbol="convertDistance"/>
-<entry field="true" id="142" symbol="endTime"/>
-<entry id="32" object="true" symbol="DistancePickerDelegate"/>
+<entry id="138" method="true" symbol="convertDistance"/>
+<entry field="true" id="144" symbol="endTime"/>
+<entry id="36" object="true" symbol="DistancePickerDelegate"/>
 <entry field="true" id="8388731" symbol="startTime"/>
 <entry id="14" object="true" symbol="TriathlonView"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="113" symbol="laptimer"/>
-<entry field="true" id="106" symbol="resetChange"/>
+<entry field="true" id="115" symbol="laptimer"/>
+<entry field="true" id="108" symbol="resetChange"/>
 <entry id="8389128" symbol="mFont"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388640" symbol="Lang"/>
-<entry field="true" id="56" symbol="CycleIcon"/>
+<entry field="true" id="60" symbol="CycleIcon"/>
 <entry field="true" id="20" symbol="elapsedLapTimeP"/>
-<entry id="89" symbol="textColor"/>
-<entry id="140" method="true" symbol="getGPSQualityColour"/>
-<entry field="true" id="81" symbol="Mode"/>
-<entry id="51" method="true" symbol="nextDiscipline"/>
+<entry id="93" symbol="textColor"/>
+<entry id="142" method="true" symbol="getGPSQualityColour"/>
+<entry field="true" id="85" symbol="Mode"/>
+<entry id="55" method="true" symbol="nextDiscipline"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="26" object="true" symbol="RecordingViewInputDelegate"/>
-<entry id="88" symbol="CENTER"/>
-<entry id="110" symbol="mIncrement"/>
-<entry id="149" method="true" symbol="addRunLap"/>
-<entry field="true" id="153" symbol="stageSports"/>
-<entry field="true" id="74" symbol="MyStringPrompt"/>
-<entry id="123" method="true" symbol="drawIntro"/>
+<entry id="30" object="true" symbol="RecordingViewInputDelegate"/>
+<entry id="92" symbol="CENTER"/>
+<entry id="112" symbol="mIncrement"/>
+<entry id="151" method="true" symbol="addRunLap"/>
+<entry field="true" id="155" symbol="stageSports"/>
+<entry field="true" id="78" symbol="MyStringPrompt"/>
+<entry id="125" method="true" symbol="drawIntro"/>
 <entry id="12" object="true" symbol="CDS"/>
-<entry id="104" method="true" symbol="drawDataField"/>
-<entry field="true" id="121" symbol="blinkOn"/>
+<entry id="106" method="true" symbol="drawDataField"/>
+<entry field="true" id="123" symbol="blinkOn"/>
 <entry id="8389098" method="true" symbol="onTap"/>
 <entry id="8389626" method="true" symbol="onAccept"/>
 <entry id="8389807" symbol="data"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="97" method="true" symbol="onSnsr"/>
-<entry field="true" id="75" symbol="AppName"/>
-<entry id="150" method="true" symbol="onTick"/>
-<entry field="true" id="68" object="true" symbol="FondEcranMenu"/>
-<entry field="true" id="117" symbol="string_autolap"/>
-<entry id="122" method="true" symbol="timercallback"/>
-<entry id="31" object="true" symbol="DistancePicker"/>
-<entry id="157" symbol="subsport"/>
+<entry id="99" method="true" symbol="onSnsr"/>
+<entry field="true" id="79" symbol="AppName"/>
+<entry id="152" method="true" symbol="onTick"/>
+<entry field="true" id="72" object="true" symbol="FondEcranMenu"/>
+<entry field="true" id="119" symbol="string_autolap"/>
+<entry id="124" method="true" symbol="timercallback"/>
+<entry id="35" object="true" symbol="DistancePicker"/>
+<entry id="159" symbol="subsport"/>
 <entry id="8388890" symbol="sport"/>
 <entry id="8388892" symbol="name"/>
-<entry field="true" id="77" symbol="LapPace"/>
-<entry field="true" id="80" symbol="distanceSeparator"/>
+<entry field="true" id="81" symbol="LapPace"/>
+<entry field="true" id="84" symbol="distanceSeparator"/>
 <entry id="15" object="true" symbol="TriathlonApp"/>
-<entry field="true" id="152" symbol="stageNames"/>
-<entry field="true" id="57" symbol="RunIcon"/>
-<entry id="124" method="true" symbol="drawPrepare"/>
-<entry id="162" symbol="item_5"/>
-<entry id="161" symbol="item_4"/>
-<entry id="160" symbol="item_3"/>
-<entry id="159" symbol="item_2"/>
-<entry id="158" symbol="item_1"/>
-<entry id="131" method="true" symbol="msToTimeWithDecimals"/>
+<entry field="true" id="154" symbol="stageNames"/>
+<entry field="true" id="61" symbol="RunIcon"/>
+<entry id="126" method="true" symbol="drawPrepare"/>
+<entry id="164" symbol="item_5"/>
+<entry id="163" symbol="item_4"/>
+<entry id="162" symbol="item_3"/>
+<entry id="161" symbol="item_2"/>
+<entry id="160" symbol="item_1"/>
+<entry id="133" method="true" symbol="msToTimeWithDecimals"/>
 <entry id="8389108" method="true" symbol="onResponse"/>
-<entry field="true" id="61" symbol="LauncherIcon"/>
-<entry field="true" id="119" symbol="string_changeMode"/>
-<entry id="37" object="true" symbol="Discipline"/>
-<entry field="true" id="66" object="true" symbol="PaceField"/>
+<entry field="true" id="65" symbol="LauncherIcon"/>
+<entry field="true" id="121" symbol="string_changeMode"/>
+<entry id="41" object="true" symbol="Discipline"/>
+<entry field="true" id="70" object="true" symbol="PaceField"/>
 <entry id="8388646" symbol="Timer"/>
-<entry id="137" method="true" symbol="convertToMeters"/>
-<entry id="96" method="true" symbol="recordingtimercallback"/>
-<entry id="29" object="true" symbol="DataQueue"/>
-<entry field="true" id="47" symbol="currentDiscipline"/>
-<entry id="33" module="true" symbol="Functions"/>
+<entry id="139" method="true" symbol="convertToMeters"/>
+<entry id="98" method="true" symbol="recordingtimercallback"/>
+<entry id="33" object="true" symbol="DataQueue"/>
+<entry field="true" id="51" symbol="currentDiscipline"/>
+<entry id="37" module="true" symbol="Functions"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="83" symbol="AveragePace"/>
+<entry field="true" id="87" symbol="AveragePace"/>
 <entry field="true" id="21" symbol="elapsedLapDistanceP"/>
-<entry field="true" id="84" symbol="CurrentPace"/>
-<entry id="45" object="true" symbol="PaceFieldMenuInputDelegate"/>
-<entry id="138" method="true" symbol="drawChevron"/>
-<entry id="139" method="true" symbol="drawReverseChevron"/>
-<entry id="109" symbol="mStop"/>
+<entry field="true" id="88" symbol="CurrentPace"/>
+<entry id="49" object="true" symbol="PaceFieldMenuInputDelegate"/>
+<entry id="140" method="true" symbol="drawChevron"/>
+<entry id="141" method="true" symbol="drawReverseChevron"/>
+<entry id="111" symbol="mStop"/>
 <entry id="8389065" symbol="locY"/>
 <entry id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
-<entry field="true" id="69" object="true" symbol="ChoixFieldMenu"/>
-<entry id="36" object="true" symbol="NumberFactory"/>
-<entry field="true" id="46" symbol="disciplines"/>
-<entry id="125" symbol="maxSize"/>
-<entry field="true" id="116" symbol="string_type"/>
+<entry field="true" id="73" object="true" symbol="ChoixFieldMenu"/>
+<entry id="40" object="true" symbol="NumberFactory"/>
+<entry field="true" id="50" symbol="disciplines"/>
+<entry id="127" symbol="maxSize"/>
+<entry field="true" id="118" symbol="string_type"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="49" symbol="settings"/>
-<entry id="34" object="true" symbol="FinishViewInputDelegate"/>
+<entry field="true" id="53" symbol="settings"/>
+<entry id="38" object="true" symbol="FinishViewInputDelegate"/>
 <entry field="true" id="11" symbol="testString"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8388942" method="true" symbol="add"/>
-<entry id="141" method="true" symbol="computeAverageSpeed"/>
-<entry id="132" method="true" symbol="convertSpeedToSwim"/>
-<entry field="true" id="48" symbol="ChangedDiscipline"/>
-<entry id="90" symbol="inverseTextColor"/>
-<entry id="105" method="true" symbol="calculateLapPace"/>
-<entry id="147" method="true" symbol="onBegin"/>
+<entry id="143" method="true" symbol="computeAverageSpeed"/>
+<entry id="134" method="true" symbol="convertSpeedToSwim"/>
+<entry field="true" id="52" symbol="ChangedDiscipline"/>
+<entry id="94" symbol="inverseTextColor"/>
+<entry id="107" method="true" symbol="calculateLapPace"/>
+<entry id="149" method="true" symbol="onBegin"/>
 <entry field="true" id="22" symbol="LapCounter"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry field="true" id="114" symbol="counter"/>
+<entry field="true" id="116" symbol="counter"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="87" symbol="AutoLapMode"/>
-<entry id="134" method="true" symbol="convertSpeedToPace"/>
+<entry field="true" id="91" symbol="AutoLapMode"/>
+<entry field="true" id="24" symbol="lapDistance"/>
+<entry id="136" method="true" symbol="convertSpeedToPace"/>
 <entry id="8389347" symbol="color"/>
-<entry id="151" method="true" symbol="getStageName"/>
+<entry id="153" method="true" symbol="getStageName"/>
 <entry id="18" module="true" symbol="TriData"/>
-<entry id="108" symbol="mStart"/>
-<entry id="44" object="true" symbol="AutoLapMenuInputDelegate"/>
-<entry id="28" object="true" symbol="LapView"/>
-<entry id="43" object="true" symbol="ChangeModeInputDelegate"/>
-<entry id="27" object="true" symbol="RecordingView"/>
+<entry id="110" symbol="mStart"/>
+<entry id="48" object="true" symbol="AutoLapMenuInputDelegate"/>
+<entry id="32" object="true" symbol="LapView"/>
+<entry id="47" object="true" symbol="ChangeModeInputDelegate"/>
+<entry id="31" object="true" symbol="RecordingView"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry id="102" method="true" symbol="drawDataFieldsInit"/>
-<entry field="true" id="25" symbol="paceData"/>
-<entry id="127" method="true" symbol="reset"/>
-<entry field="true" id="79" symbol="miles"/>
-<entry id="156" method="true" symbol="onPosition"/>
-<entry id="38" object="true" symbol="MainMenuInputDelegate"/>
-<entry id="39" object="true" symbol="ModeMenuInputDelegate"/>
-<entry field="true" id="143" symbol="disciplineSession"/>
-<entry field="true" id="154" symbol="stageSubSports"/>
-<entry id="54" module="true" symbol="Layouts"/>
-<entry id="107" method="true" symbol="changeReset"/>
-<entry id="126" symbol="pos"/>
-<entry id="42" object="true" symbol="RunSettingsInputDelegate"/>
-<entry id="98" method="true" symbol="drawGPS"/>
-<entry id="41" object="true" symbol="ChoixFieldMenuInputDelegate"/>
-<entry id="130" method="true" symbol="msToTime"/>
+<entry id="104" method="true" symbol="drawDataFieldsInit"/>
+<entry field="true" id="26" symbol="paceData"/>
+<entry id="129" method="true" symbol="reset"/>
+<entry field="true" id="83" symbol="miles"/>
+<entry id="158" method="true" symbol="onPosition"/>
+<entry id="42" object="true" symbol="MainMenuInputDelegate"/>
+<entry id="43" object="true" symbol="ModeMenuInputDelegate"/>
+<entry field="true" id="145" symbol="disciplineSession"/>
+<entry field="true" id="156" symbol="stageSubSports"/>
+<entry id="58" module="true" symbol="Layouts"/>
+<entry id="109" method="true" symbol="changeReset"/>
+<entry id="128" symbol="pos"/>
+<entry id="46" object="true" symbol="RunSettingsInputDelegate"/>
+<entry id="100" method="true" symbol="drawGPS"/>
+<entry id="45" object="true" symbol="ChoixFieldMenuInputDelegate"/>
+<entry id="132" method="true" symbol="msToTime"/>
 <entry id="8389099" method="true" symbol="onHold"/>
 <entry id="8389644" symbol="defaults"/>
 <entry id="8389628" method="true" symbol="getDrawable"/>
-<entry id="129" method="true" symbol="splitStoredDistance"/>
+<entry id="131" method="true" symbol="splitStoredDistance"/>
 <entry id="8389346" symbol="text"/>
-<entry id="133" method="true" symbol="convertSpeedToBike"/>
-<entry id="53" module="true" symbol="Menus"/>
-<entry field="true" id="94" symbol="lapInitDistance"/>
-<entry id="148" method="true" symbol="onEnd"/>
+<entry field="true" id="27" symbol="screen"/>
+<entry id="135" method="true" symbol="convertSpeedToBike"/>
+<entry id="57" module="true" symbol="Menus"/>
+<entry field="true" id="28" symbol="lapInitDistance"/>
+<entry id="150" method="true" symbol="onEnd"/>
 <entry field="true" id="23" symbol="lapPace"/>
-<entry id="101" method="true" symbol="drawTitleBar"/>
-<entry field="true" id="82" symbol="RunPaceField"/>
+<entry id="103" method="true" symbol="drawTitleBar"/>
+<entry field="true" id="86" symbol="RunPaceField"/>
 <entry id="8389643" symbol="pattern"/>
-<entry id="115" method="true" symbol="laptimercallback"/>
-<entry field="true" id="67" object="true" symbol="ChangeMode"/>
-<entry id="103" method="true" symbol="drawDataFields"/>
-<entry field="true" id="155" symbol="stageIcons"/>
-<entry field="true" id="65" object="true" symbol="AutoLap"/>
-<entry id="99" method="true" symbol="drawSegments"/>
+<entry id="117" method="true" symbol="laptimercallback"/>
+<entry field="true" id="71" object="true" symbol="ChangeMode"/>
+<entry id="105" method="true" symbol="drawDataFields"/>
+<entry field="true" id="157" symbol="stageIcons"/>
+<entry field="true" id="69" object="true" symbol="AutoLap"/>
+<entry id="101" method="true" symbol="drawSegments"/>
 <entry id="8389100" method="true" symbol="onRelease"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
 <entry id="8389630" method="true" symbol="getSize"/>
-<entry field="true" id="92" symbol="i"/>
-<entry field="true" id="85" symbol="Aquathlon"/>
+<entry field="true" id="96" symbol="i"/>
+<entry field="true" id="89" symbol="Aquathlon"/>
 <entry id="8389541" method="true" symbol="onCancel"/>
-<entry field="true" id="60" symbol="FinishIcon"/>
-<entry field="true" id="76" symbol="TwoTimesPressLap"/>
+<entry field="true" id="64" symbol="FinishIcon"/>
+<entry field="true" id="80" symbol="TwoTimesPressLap"/>
 </symbolTable>
 <localVars>
 <entry endPc="268436064" name="recview" stackId="5" startPc="268435802"/>
@@ -989,99 +1015,105 @@
 <entry endPc="268439089" name="trimode" stackId="2" startPc="268438912"/>
 <entry endPc="268439214" name="view" stackId="1" startPc="268439139"/>
 <entry endPc="268439214" name="dele" stackId="2" startPc="268439139"/>
-<entry endPc="268441242" name="color" stackId="2" startPc="268441021"/>
-<entry endPc="268441366" name="HR" stackId="2" startPc="268441245"/>
-<entry endPc="268441366" name="bucket" stackId="3" startPc="268441245"/>
-<entry endPc="268441523" name="gpsinfo" stackId="2" startPc="268441375"/>
-<entry endPc="268441523" name="gpsIsOkay" stackId="3" startPc="268441375"/>
-<entry endPc="268442031" name="curx" stackId="4" startPc="268441526"/>
-<entry endPc="268442031" name="xfwidth" stackId="3" startPc="268441526"/>
-<entry endPc="268442031" name="segwidth" stackId="2" startPc="268441526"/>
-<entry endPc="268442336" name="elapsedTime" stackId="2" startPc="268442122"/>
-<entry endPc="268443080" name="cursession" stackId="4" startPc="268442515"/>
-<entry endPc="268443413" name="elapsedTime" stackId="3" startPc="268442339"/>
-<entry endPc="268443413" name="y" stackId="2" startPc="268442339"/>
-<entry endPc="268444707" name="font" stackId="5" startPc="268443416"/>
-<entry endPc="268444707" name="time" stackId="13" startPc="268443416"/>
-<entry endPc="268444707" name="clockTime" stackId="12" startPc="268443416"/>
-<entry endPc="268444707" name="data" stackId="6" startPc="268443416"/>
-<entry endPc="268444707" name="computeAvgSpeed" stackId="4" startPc="268443416"/>
-<entry endPc="268444707" name="battery" stackId="14" startPc="268443416"/>
-<entry endPc="268444707" name="cursession" stackId="3" startPc="268443416"/>
-<entry endPc="268444707" name="avg" stackId="8" startPc="268443416"/>
-<entry endPc="268444707" name="cadence" stackId="10" startPc="268443416"/>
-<entry endPc="268444707" name="largeur" stackId="7" startPc="268443416"/>
-<entry endPc="268444707" name="cadenceStr" stackId="11" startPc="268443416"/>
-<entry endPc="268444707" name="elapsedTime" stackId="9" startPc="268443416"/>
-<entry endPc="268445154" name="smalloffset" stackId="5" startPc="268444710"/>
-<entry endPc="268445764" name="autolapdistance" stackId="7" startPc="268445477"/>
-<entry endPc="268445803" name="elapsedLapTime" stackId="2" startPc="268445157"/>
-<entry endPc="268445803" name="elapsedTime" stackId="5" startPc="268445157"/>
-<entry endPc="268445803" name="elapsedDistance" stackId="6" startPc="268445157"/>
-<entry endPc="268445803" name="elapsedLapDistance" stackId="3" startPc="268445157"/>
-<entry endPc="268445803" name="lapVel" stackId="4" startPc="268445157"/>
-<entry endPc="268445803" name="cursession" stackId="1" startPc="268445157"/>
-<entry endPc="268446509" name="i" stackId="1" startPc="268446484"/>
-<entry endPc="268447429" name="settings" stackId="3" startPc="268446537"/>
-<entry endPc="268447429" name="factories" stackId="2" startPc="268446537"/>
-<entry endPc="268447429" name="defaults" stackId="4" startPc="268446537"/>
-<entry endPc="268447429" name="title" stackId="1" startPc="268446537"/>
-<entry endPc="268447714" name="defaults" stackId="2" startPc="268447503"/>
-<entry endPc="268447714" name="separatorIndex" stackId="3" startPc="268447503"/>
-<entry endPc="268447714" name="storedValue" stackId="1" startPc="268447503"/>
-<entry endPc="268447889" name="distance" stackId="2" startPc="268447748"/>
-<entry endPc="268448020" name="hours" stackId="4" startPc="268447893"/>
-<entry endPc="268448020" name="minutes" stackId="3" startPc="268447893"/>
-<entry endPc="268448020" name="seconds" stackId="2" startPc="268447893"/>
-<entry endPc="268448291" name="hours" stackId="5" startPc="268448023"/>
-<entry endPc="268448291" name="decimals" stackId="2" startPc="268448023"/>
-<entry endPc="268448291" name="string" stackId="6" startPc="268448023"/>
-<entry endPc="268448291" name="minutes" stackId="4" startPc="268448023"/>
-<entry endPc="268448291" name="seconds" stackId="3" startPc="268448023"/>
-<entry endPc="268448480" name="secpermetre" stackId="7" startPc="268448409"/>
-<entry endPc="268448554" name="conversionvalue" stackId="5" startPc="268448294"/>
-<entry endPc="268448554" name="result_per" stackId="4" startPc="268448294"/>
-<entry endPc="268448554" name="result_min" stackId="2" startPc="268448294"/>
-<entry endPc="268448554" name="settings" stackId="6" startPc="268448294"/>
-<entry endPc="268448554" name="result_sec" stackId="3" startPc="268448294"/>
-<entry endPc="268448820" name="conversionvalue" stackId="3" startPc="268448557"/>
-<entry endPc="268448820" name="speedStr" stackId="7" startPc="268448557"/>
-<entry endPc="268448820" name="settings" stackId="6" startPc="268448557"/>
-<entry endPc="268448820" name="result_format" stackId="5" startPc="268448557"/>
-<entry endPc="268448820" name="result_speed" stackId="4" startPc="268448557"/>
-<entry endPc="268449009" name="secpermetre" stackId="7" startPc="268448938"/>
-<entry endPc="268449083" name="conversionvalue" stackId="5" startPc="268448823"/>
-<entry endPc="268449083" name="result_per" stackId="4" startPc="268448823"/>
-<entry endPc="268449083" name="result_min" stackId="2" startPc="268448823"/>
-<entry endPc="268449083" name="settings" stackId="6" startPc="268448823"/>
-<entry endPc="268449083" name="result_sec" stackId="3" startPc="268448823"/>
-<entry endPc="268449193" name="minutesPerKmOrMilesFloor" stackId="4" startPc="268449107"/>
-<entry endPc="268449193" name="metersPerMinute" stackId="2" startPc="268449107"/>
-<entry endPc="268449193" name="seconds" stackId="5" startPc="268449107"/>
-<entry endPc="268449193" name="minutesPerKmOrMilesDecimal" stackId="3" startPc="268449107"/>
-<entry endPc="268449286" name="settings" stackId="3" startPc="268449222"/>
-<entry endPc="268449337" name="result" stackId="2" startPc="268449205"/>
-<entry endPc="268449421" name="settings" stackId="3" startPc="268449357"/>
-<entry endPc="268449424" name="meters" stackId="2" startPc="268449340"/>
-<entry endPc="268450317" name="segwidth" stackId="9" startPc="268449427"/>
-<entry endPc="268450317" name="poly" stackId="8" startPc="268449427"/>
-<entry endPc="268451210" name="segwidth" stackId="9" startPc="268450320"/>
-<entry endPc="268451210" name="poly" stackId="8" startPc="268450320"/>
-<entry endPc="268451337" name="gpsnfo" stackId="2" startPc="268451213"/>
-<entry endPc="268451437" name="i" stackId="5" startPc="268451391"/>
-<entry endPc="268451463" name="size" stackId="2" startPc="268451340"/>
-<entry endPc="268451463" name="data" stackId="3" startPc="268451340"/>
-<entry endPc="268451463" name="sumOfData" stackId="4" startPc="268451340"/>
-<entry endPc="268451531" name="keynum" stackId="2" startPc="268451466"/>
-<entry endPc="268451956" name="elapsedTime" stackId="2" startPc="268451541"/>
-<entry endPc="268452128" name="elapsedTime" stackId="3" startPc="268451965"/>
-<entry endPc="268452128" name="y" stackId="2" startPc="268451965"/>
-<entry endPc="268452433" name="index" stackId="2" startPc="268452408"/>
-<entry endPc="268453216" name="starttrue" stackId="2" startPc="268453185"/>
-<entry endPc="268453222" name="logtxt" stackId="1" startPc="268452849"/>
-<entry endPc="268453446" name="savetrue" stackId="2" startPc="268453359"/>
-<entry endPc="268453446" name="stoptrue" stackId="1" startPc="268453359"/>
-<entry endPc="268453522" name="addedlap" stackId="1" startPc="268453500"/>
+<entry endPc="268441172" name="elapsedLapTime" stackId="3" startPc="268440729"/>
+<entry endPc="268441172" name="elapsedTime" stackId="6" startPc="268440729"/>
+<entry endPc="268441172" name="elapsedDistance" stackId="7" startPc="268440729"/>
+<entry endPc="268441172" name="elapsedLapDistance" stackId="4" startPc="268440729"/>
+<entry endPc="268441172" name="lapVel" stackId="5" startPc="268440729"/>
+<entry endPc="268441172" name="cursession" stackId="2" startPc="268440729"/>
+<entry endPc="268441715" name="color" stackId="2" startPc="268441494"/>
+<entry endPc="268441839" name="HR" stackId="2" startPc="268441718"/>
+<entry endPc="268441839" name="bucket" stackId="3" startPc="268441718"/>
+<entry endPc="268441996" name="gpsinfo" stackId="2" startPc="268441848"/>
+<entry endPc="268441996" name="gpsIsOkay" stackId="3" startPc="268441848"/>
+<entry endPc="268442504" name="curx" stackId="4" startPc="268441999"/>
+<entry endPc="268442504" name="xfwidth" stackId="3" startPc="268441999"/>
+<entry endPc="268442504" name="segwidth" stackId="2" startPc="268441999"/>
+<entry endPc="268442809" name="elapsedTime" stackId="2" startPc="268442595"/>
+<entry endPc="268443553" name="cursession" stackId="4" startPc="268442988"/>
+<entry endPc="268443886" name="elapsedTime" stackId="3" startPc="268442812"/>
+<entry endPc="268443886" name="y" stackId="2" startPc="268442812"/>
+<entry endPc="268445180" name="font" stackId="5" startPc="268443889"/>
+<entry endPc="268445180" name="time" stackId="13" startPc="268443889"/>
+<entry endPc="268445180" name="clockTime" stackId="12" startPc="268443889"/>
+<entry endPc="268445180" name="data" stackId="6" startPc="268443889"/>
+<entry endPc="268445180" name="computeAvgSpeed" stackId="4" startPc="268443889"/>
+<entry endPc="268445180" name="battery" stackId="14" startPc="268443889"/>
+<entry endPc="268445180" name="cursession" stackId="3" startPc="268443889"/>
+<entry endPc="268445180" name="avg" stackId="8" startPc="268443889"/>
+<entry endPc="268445180" name="cadence" stackId="10" startPc="268443889"/>
+<entry endPc="268445180" name="largeur" stackId="7" startPc="268443889"/>
+<entry endPc="268445180" name="cadenceStr" stackId="11" startPc="268443889"/>
+<entry endPc="268445180" name="elapsedTime" stackId="9" startPc="268443889"/>
+<entry endPc="268445627" name="smalloffset" stackId="5" startPc="268445183"/>
+<entry endPc="268446237" name="autolapdistance" stackId="7" startPc="268445950"/>
+<entry endPc="268446276" name="elapsedLapTime" stackId="2" startPc="268445630"/>
+<entry endPc="268446276" name="elapsedTime" stackId="5" startPc="268445630"/>
+<entry endPc="268446276" name="elapsedDistance" stackId="6" startPc="268445630"/>
+<entry endPc="268446276" name="elapsedLapDistance" stackId="3" startPc="268445630"/>
+<entry endPc="268446276" name="lapVel" stackId="4" startPc="268445630"/>
+<entry endPc="268446276" name="cursession" stackId="1" startPc="268445630"/>
+<entry endPc="268447162" name="i" stackId="1" startPc="268447137"/>
+<entry endPc="268448082" name="settings" stackId="3" startPc="268447190"/>
+<entry endPc="268448082" name="factories" stackId="2" startPc="268447190"/>
+<entry endPc="268448082" name="defaults" stackId="4" startPc="268447190"/>
+<entry endPc="268448082" name="title" stackId="1" startPc="268447190"/>
+<entry endPc="268448367" name="defaults" stackId="2" startPc="268448156"/>
+<entry endPc="268448367" name="separatorIndex" stackId="3" startPc="268448156"/>
+<entry endPc="268448367" name="storedValue" stackId="1" startPc="268448156"/>
+<entry endPc="268448542" name="distance" stackId="2" startPc="268448401"/>
+<entry endPc="268448673" name="hours" stackId="4" startPc="268448546"/>
+<entry endPc="268448673" name="minutes" stackId="3" startPc="268448546"/>
+<entry endPc="268448673" name="seconds" stackId="2" startPc="268448546"/>
+<entry endPc="268448944" name="hours" stackId="5" startPc="268448676"/>
+<entry endPc="268448944" name="decimals" stackId="2" startPc="268448676"/>
+<entry endPc="268448944" name="string" stackId="6" startPc="268448676"/>
+<entry endPc="268448944" name="minutes" stackId="4" startPc="268448676"/>
+<entry endPc="268448944" name="seconds" stackId="3" startPc="268448676"/>
+<entry endPc="268449133" name="secpermetre" stackId="7" startPc="268449062"/>
+<entry endPc="268449207" name="conversionvalue" stackId="5" startPc="268448947"/>
+<entry endPc="268449207" name="result_per" stackId="4" startPc="268448947"/>
+<entry endPc="268449207" name="result_min" stackId="2" startPc="268448947"/>
+<entry endPc="268449207" name="settings" stackId="6" startPc="268448947"/>
+<entry endPc="268449207" name="result_sec" stackId="3" startPc="268448947"/>
+<entry endPc="268449473" name="conversionvalue" stackId="3" startPc="268449210"/>
+<entry endPc="268449473" name="speedStr" stackId="7" startPc="268449210"/>
+<entry endPc="268449473" name="settings" stackId="6" startPc="268449210"/>
+<entry endPc="268449473" name="result_format" stackId="5" startPc="268449210"/>
+<entry endPc="268449473" name="result_speed" stackId="4" startPc="268449210"/>
+<entry endPc="268449662" name="secpermetre" stackId="7" startPc="268449591"/>
+<entry endPc="268449736" name="conversionvalue" stackId="5" startPc="268449476"/>
+<entry endPc="268449736" name="result_per" stackId="4" startPc="268449476"/>
+<entry endPc="268449736" name="result_min" stackId="2" startPc="268449476"/>
+<entry endPc="268449736" name="settings" stackId="6" startPc="268449476"/>
+<entry endPc="268449736" name="result_sec" stackId="3" startPc="268449476"/>
+<entry endPc="268449846" name="minutesPerKmOrMilesFloor" stackId="4" startPc="268449760"/>
+<entry endPc="268449846" name="metersPerMinute" stackId="2" startPc="268449760"/>
+<entry endPc="268449846" name="seconds" stackId="5" startPc="268449760"/>
+<entry endPc="268449846" name="minutesPerKmOrMilesDecimal" stackId="3" startPc="268449760"/>
+<entry endPc="268449939" name="settings" stackId="3" startPc="268449875"/>
+<entry endPc="268449990" name="result" stackId="2" startPc="268449858"/>
+<entry endPc="268450074" name="settings" stackId="3" startPc="268450010"/>
+<entry endPc="268450077" name="meters" stackId="2" startPc="268449993"/>
+<entry endPc="268450970" name="segwidth" stackId="9" startPc="268450080"/>
+<entry endPc="268450970" name="poly" stackId="8" startPc="268450080"/>
+<entry endPc="268451863" name="segwidth" stackId="9" startPc="268450973"/>
+<entry endPc="268451863" name="poly" stackId="8" startPc="268450973"/>
+<entry endPc="268451990" name="gpsnfo" stackId="2" startPc="268451866"/>
+<entry endPc="268452090" name="i" stackId="5" startPc="268452044"/>
+<entry endPc="268452116" name="size" stackId="2" startPc="268451993"/>
+<entry endPc="268452116" name="data" stackId="3" startPc="268451993"/>
+<entry endPc="268452116" name="sumOfData" stackId="4" startPc="268451993"/>
+<entry endPc="268452184" name="keynum" stackId="2" startPc="268452119"/>
+<entry endPc="268452609" name="elapsedTime" stackId="2" startPc="268452194"/>
+<entry endPc="268452781" name="elapsedTime" stackId="3" startPc="268452618"/>
+<entry endPc="268452781" name="y" stackId="2" startPc="268452618"/>
+<entry endPc="268453086" name="index" stackId="2" startPc="268453061"/>
+<entry endPc="268453869" name="starttrue" stackId="2" startPc="268453838"/>
+<entry endPc="268453875" name="logtxt" stackId="1" startPc="268453502"/>
+<entry endPc="268454099" name="savetrue" stackId="2" startPc="268454012"/>
+<entry endPc="268454099" name="stoptrue" stackId="1" startPc="268454012"/>
+<entry endPc="268454175" name="addedlap" stackId="1" startPc="268454153"/>
 </localVars>
 <annotations/>
 <functions>
