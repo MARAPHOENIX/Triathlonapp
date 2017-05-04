@@ -14,7 +14,7 @@ class DistancePicker extends Ui.Picker {
         var settings = Sys.getDeviceSettings();
 
         factories = new [4];
-        factories[0] = new NumberFactory(0, 9, 1);
+        factories[0] = new NumberFactory(0, 9, 1,null);
         factories[1] = new Ui.Text({:text=>Rez.Strings.distanceSeparator, :font=>Gfx.FONT_MEDIUM, :locX =>Ui.LAYOUT_HALIGN_CENTER, :locY=>Ui.LAYOUT_VALIGN_CENTER, :color=>Gfx.COLOR_WHITE});
         factories[2] = new NumberFactory(0, 95, 5, {:format=>MINUTE_FORMAT});
         if( settings.paceUnits == Sys.UNIT_METRIC ){

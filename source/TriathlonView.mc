@@ -65,6 +65,13 @@ class TriathlonViewInputDelegate extends Ui.InputDelegate {
 			return true;
 		}
 		
+		if( evt.getKey() == Ui.KEY_DOWN ) {
+			var MainMenu= new Rez.Menus.MainMenu();
+			Ui.pushView( MainMenu, new MainMenuInputDelegate(), Ui.SLIDE_LEFT );
+			Ui.requestUpdate();
+			return true;
+		}
+		
 		var cdS;
 		if( evt.getKey() == Ui.KEY_ESC ) {
 			cdS = new Ui.Confirmation( testString );
