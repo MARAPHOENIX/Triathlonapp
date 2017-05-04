@@ -22,7 +22,7 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 
 
 	function onKey(evt) {
-		if( evt.getKey() == Ui.KEY_ESC ) {
+		if( evt.getKey() == Ui.KEY_ENTER ) {
 			if (App.getApp().getProperty( "TwoTimesPressLap" ) == true){
 				change = change + 1;
 				if (change == 2){
@@ -57,7 +57,21 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
     		Ui.requestUpdate();
     
         }
-		
+        
+        
+        if( evt.getKey() ==  Ui.KEY_ESC  ) {
+        	//System.println("POWER");
+    		if (App.getApp().getProperty( "Format" ) == 0){
+    			App.getApp().setProperty( "Format",1);
+    		}else{
+    			App.getApp().setProperty( "Format",0);
+    		}
+    		Ui.requestUpdate();
+    
+        }
+        
+        
+	
 		
 		// Imply that we handle everything
 		return true;
@@ -256,7 +270,7 @@ class RecordingView extends Ui.View {
 				y = drawDataField( dc, "Pace:", Functions.convertSpeedToSwim(cursession.currentSpeed), y );
 			} 
 			else if ( TriData.disciplines[TriData.currentDiscipline].currentStage == 2 ){
-				y = drawDataField( dc, "Vel.:", Functions.convertSpeedToBike(cursession.currentSpeed), y );
+				y = drawDataField( dc, "Vel.:", Functions.convertSpeedToBike(cursession.currentSpeed,1), y );
 			}
 			else if ( TriData.disciplines[TriData.currentDiscipline].currentStage == 4 ){
 				calculateLapPace();
@@ -292,11 +306,21 @@ class RecordingView extends Ui.View {
 		paceData.add(cursession.currentSpeed);
 		var computeAvgSpeed = Functions.computeAverageSpeed(paceData);
 		var font = Graphics.FONT_NUMBER_HOT;
+		
+		var data = Functions.getMinutesPerKmOrMile(computeAvgSpeed);
+		var largeur = dc.getWidth()/2 - 3;
+		var avg = Functions.getMinutesPerKmOrMile(cursession.averageSpeed);
+		if (App.getApp().getProperty( "Format" ) == 1){
+			data = Functions.convertSpeedToBike(computeAvgSpeed,0);
+			largeur =  dc.getWidth()/2 + 3;
+			avg = Functions.convertSpeedToBike(cursession.averageSpeed,0);
+		}
+		
 	    if (computeAvgSpeed>=1.67){
         	font =  Graphics.FONT_NUMBER_THAI_HOT;
-        	dc.drawText(dc.getWidth()/2-3, 57, font, Functions.getMinutesPerKmOrMile(computeAvgSpeed), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        	dc.drawText(largeur, 57, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }else{
-        	dc.drawText(dc.getWidth()/2-3, 68, font, Functions.getMinutesPerKmOrMile(computeAvgSpeed), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        	dc.drawText(largeur, 68, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
 
 		
@@ -305,7 +329,7 @@ class RecordingView extends Ui.View {
 		dc.drawText(30, 76, Graphics.FONT_NUMBER_MEDIUM, string_HR, CENTER);
 		
 		//vmoy
-		dc.drawText(110, 180, Graphics.FONT_NUMBER_HOT, Functions.getMinutesPerKmOrMile(cursession.averageSpeed), CENTER);
+		dc.drawText(110, 180, Graphics.FONT_NUMBER_HOT,avg, CENTER);
 		
 		//chrono 
 		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;

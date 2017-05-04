@@ -62,7 +62,7 @@ module Functions {
     	return Lang.format("$1$:$2$$3$", [result_min, result_sec.format("%02d"), result_per]);
     }
     
-    function convertSpeedToBike (speed) {
+    function convertSpeedToBike (speed,unite) {
     	var conversionvalue;
     	var result_speed;
     	var result_format;
@@ -71,15 +71,26 @@ module Functions {
     	result_speed=0;
     	if( settings.paceUnits == Sys.UNIT_METRIC ) {
 			result_format = "km/h";
+			if (unite==0){
+				result_format = "";
+			}
 			conversionvalue = 1000.0d;
 		} else {
     		result_format = "mi/h";
+    		if (unite==0){
+				result_format = "";
+			}
     		conversionvalue = 1609.34d;
     	}
     	if( speed != null && speed > 0 ) {
 	    	result_speed =speed*3600/conversionvalue;
 		}
-    	return Lang.format("$1$ $2$", [result_speed.format("%02.2f"), result_format]); 
+		
+		var speedStr = result_speed.format("%02.2f");
+		if (unite==0){
+			speedStr = result_speed.format("%02.1f");
+		}
+    	return Lang.format("$1$ $2$", [speedStr, result_format]); 
     }
     
     function convertSpeedToPace(speed) {
