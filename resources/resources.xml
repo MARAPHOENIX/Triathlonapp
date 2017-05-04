@@ -8,6 +8,7 @@
 	<string id="ModeMenu">Mode Menu</string>
 	<string id="MainMenu">Main Menu</string>
 	<string id="FondEcranMenu">Fond Ecran Menu</string>
+    <string id="ChoixFieldMenu">Choix Field Menu</string>
 	<string id="AutoLapMode">Run Auto Lap</string>
 	<string id="AutoLapDistance">Lap Distance (km or mi depending on the watch settings)</string>
 	<string id="RunSettings">Run Settings</string>
@@ -79,7 +80,8 @@
     		<menu-item id="item_1">Mode</menu-item>
     		<menu-item id="item_2">Run Settings</menu-item>
     		<menu-item id="item_3">Fond Ecran</menu-item>
-    		<menu-item id="item_4">Change Discipline Mode</menu-item>
+    		<menu-item id="item_4">Choix Field</menu-item>
+    		<menu-item id="item_5">Change Discipline Mode</menu-item>
 		</menu>
 	
 		<menu id="ModeMenu" title="@Strings.ModeMenu">
@@ -113,6 +115,11 @@
 		<menu id="FondEcranMenu" title="@Strings.FondEcranMenu">
     		<menu-item id="item_1">Noir</menu-item>
     		<menu-item id="item_2">Blanc</menu-item>
+		</menu>
+		
+		<menu id="ChoixFieldMenu" title="@Strings.ChoixFieldMenu">
+    		<menu-item id="item_1">Init</menu-item>
+    		<menu-item id="item_2">Coureur</menu-item>
 		</menu>
 		
 	</menus>

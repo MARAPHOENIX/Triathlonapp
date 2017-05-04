@@ -31,9 +31,11 @@ class TriathlonViewInputDelegate extends Ui.InputDelegate {
 	var settings = Sys.getDeviceSettings();
 
 	function onKey(evt) {
-	
+		
 		var keynum = Lang.format("T $1$", [evt.getKey()]);
 		Sys.println(keynum);
+		Sys.println(App.getApp().getProperty( "FondEcran"));
+		//App.getApp().setProperty( "FondEcran", 0 );
 		
 		var gpsinfos = Pos.getInfo();
 		var gpsIsOkay = ( gpsinfos.accuracy == Pos.QUALITY_GOOD || gpsinfos.accuracy == Pos.QUALITY_USABLE );

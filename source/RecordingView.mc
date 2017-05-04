@@ -15,6 +15,8 @@ var elapsedLapDistanceP = 0.0;
 var LapCounter = 0;
 var lapPace = "";
 var change = 0;
+var paceData = new DataQueue(10);
+
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
 
@@ -34,6 +36,27 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 				Ui.requestUpdate();
 			}
 		}
+		
+		if( evt.getKey() == Ui.KEY_UP ) {
+    		if (App.getApp().getProperty( "Choix" ) == 0){
+    			App.getApp().setProperty( "Choix",1);
+    		}else{
+    			App.getApp().setProperty( "Choix",0);
+    		}
+    		Ui.requestUpdate();
+    
+        }
+        
+        
+		if( evt.getKey() == Ui.KEY_DOWN ) {
+    		if (App.getApp().getProperty( "FondEcran" ) == 0){
+    			App.getApp().setProperty( "FondEcran",1);
+    		}else{
+    			App.getApp().setProperty( "FondEcran",0);
+    		}
+    		Ui.requestUpdate();
+    
+        }
 		
 		
 		// Imply that we handle everything
@@ -64,7 +87,10 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 }
 
 class RecordingView extends Ui.View {
-
+    hidden const CENTER = Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER;
+    hidden var textColor = Graphics.COLOR_BLACK;
+    hidden var inverseTextColor = Graphics.COLOR_WHITE;
+    
 	var recordingtimer;
 	var i = 0;
 	var string_HR;
@@ -82,7 +108,7 @@ class RecordingView extends Ui.View {
 		// Get the Heart Rate Sensor enabled
     	
     	
-    	string_HR = "---bpm";
+    	string_HR = "---";
 		
 		recordingtimer = new Timer.Timer();
 		recordingtimer.start( method(:recordingtimercallback), 100, false );
@@ -103,10 +129,28 @@ class RecordingView extends Ui.View {
 		
 		changeReset();
 		Sensor.enableSensorEvents(method(:onSnsr));
-		drawTitleBar(dc);
-		drawGPS(dc);
+		
 		//drawSegments(dc);
-		drawDataFields(dc);
+		
+		if (App.getApp().getProperty( "Choix" ) == 0){
+			drawTitleBar(dc);
+			drawGPS(dc);
+			drawDataFieldsInit(dc);
+		}else{
+			//drawTitleBar(dc);
+			//drawGPS(dc);
+			var color = inverseTextColor;
+			if (App.getApp().getProperty( "FondEcran" ) == 0){
+			    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+       		    dc.fillRectangle(0, 0, 218, 218);
+			}else{
+			 	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
+       		    dc.fillRectangle(0, 0, 218, 218);
+       		    color = textColor;
+			}
+			drawDataFields(dc,color);
+		}
+		
 		
 		
     }
@@ -117,12 +161,16 @@ class RecordingView extends Ui.View {
         var bucket;
         if( sensor_info.heartRate != null )
         {
-            string_HR = HR.toString() + "bpm";
+            string_HR = HR.toString();
+            
+            if (App.getApp().getProperty( "Choix" ) == 0){
+            	string_HR = string_HR + "bpm"; 
+            }
 
         }
         else
         {
-            string_HR = "---bpm";
+            string_HR = "---";
         }
         
 
@@ -191,7 +239,7 @@ class RecordingView extends Ui.View {
 		dc.drawText(dc.getWidth() - 60, 10, Gfx.FONT_MEDIUM, Functions.msToTime(elapsedTime), Gfx.TEXT_JUSTIFY_RIGHT);
 	}
 	
-	function drawDataFields(dc) {
+	function drawDataFieldsInit(dc) {
 		var y = 44;
 		
 		
@@ -213,7 +261,8 @@ class RecordingView extends Ui.View {
 			else if ( TriData.disciplines[TriData.currentDiscipline].currentStage == 4 ){
 				calculateLapPace();
 				if(App.getApp().getProperty( "PaceField" ) == 0){
-					y = drawDataField( dc, "Pace:", Functions.convertSpeedToPace(cursession.currentSpeed), y );
+					paceData.add(cursession.currentSpeed);
+					y = drawDataField( dc, "Pace:", Functions.convertSpeedToPace(Functions.computeAverageSpeed(paceData)), y );
 				}
 				else if (App.getApp().getProperty( "PaceField" ) == 1){
 					y = drawDataField( dc, "Avg. Pace:", Functions.convertSpeedToPace(cursession.averageSpeed), y );
@@ -231,8 +280,50 @@ class RecordingView extends Ui.View {
 		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
 		dc.drawLine( 0, y, dc.getWidth(), y );
 		
-        //dc.drawText(dc.getWidth()/2-3, 57, Graphics.FONT_NUMBER_THAI_HOT, Functions.convertSpeedToPace(Act.getActivityInfo().currentSpeed), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        //dc.drawText(dc.getWidth()/2-3, 57, Graphics.FONT_NUMBER_THAI_HOT, Functions.getMinutesPerKmOrMile(Functions.computeAverageSpeed(paceData)), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 		
+	}
+	
+	
+	function drawDataFields(dc,color) {
+		dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+		var cursession = Act.getActivityInfo();
+		//vitesse moy 10s
+		paceData.add(cursession.currentSpeed);
+		dc.drawText(dc.getWidth()/2-3, 57, Graphics.FONT_NUMBER_THAI_HOT, Functions.getMinutesPerKmOrMile(Functions.computeAverageSpeed(paceData)), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+		
+		//hr
+		dc.drawText(30, 76, Graphics.FONT_NUMBER_MEDIUM, string_HR, CENTER);
+		
+		//vmoy
+		dc.drawText(110, 180, Graphics.FONT_NUMBER_HOT, Functions.getMinutesPerKmOrMile(cursession.averageSpeed), CENTER);
+		
+		//chrono 
+		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
+		dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
+		
+		//distance
+		dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
+		
+		//cadence
+		var cadence = cursession.currentCadence != null ? cursession.currentCadence : 0;
+		dc.drawText(dc.getWidth()-35, 76, Graphics.FONT_NUMBER_MEDIUM, cadence.format("%d"), CENTER);
+		
+		//time
+        var clockTime = System.getClockTime();
+        var time = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%.2d")]);
+    
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+        dc.fillRectangle(0,0,218,20);
+        dc.setColor(inverseTextColor, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(106, 10, Graphics.FONT_TINY, time, CENTER);
+        var battery = System.getSystemStats().battery;
+        dc.drawText(142, 11, Graphics.FONT_XTINY,battery.format("%d"), CENTER);
+        
+        //grid
+        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.drawLine(0, 100, dc.getWidth(), 100);
+        dc.drawLine(0, 156, dc.getWidth(), 156);
 	}
 	
 	function drawDataField(dc, label, value, y) {
@@ -337,6 +428,40 @@ class LapView extends Ui.View {
 		else{
 			Ui.popView(Ui.SLIDE_IMMEDIATE);
 		}
-	}
-	
+	}	
+}
+
+//! A circular queue implementation.
+//! @author Konrad Paumann
+class DataQueue {
+
+    //! the data array.
+    hidden var data;
+    hidden var maxSize = 0;
+    hidden var pos = 0;
+
+    //! precondition: size has to be >= 2
+    function initialize(arraySize) {
+        data = new[arraySize];
+        maxSize = arraySize;
+    }
+    
+    //! Add an element to the queue.
+    function add(element) {
+        data[pos] = element;
+        pos = (pos + 1) % maxSize;
+    }
+    
+    //! Reset the queue to its initial state.
+    function reset() {
+        for (var i = 0; i < data.size(); i++) {
+            data[i] = null;
+        }
+        pos = 0;
+    }
+    
+    //! Get the underlying data array.
+    function getData() {
+        return data;
+    }
 }

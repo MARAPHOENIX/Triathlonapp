@@ -20,6 +20,9 @@ class MainMenuInputDelegate extends Ui.MenuInputDelegate {
         } else if ( item == :item_3 )  {
             Ui.pushView( new Rez.Menus.FondEcranMenu(), new FondEcranMenuInputDelegate(), Ui.SLIDE_LEFT );
             Ui.requestUpdate();
+        } else if ( item == :item_4 )  {
+            Ui.pushView( new Rez.Menus.ChoixFieldMenu(), new ChoixFieldMenuInputDelegate(), Ui.SLIDE_LEFT );
+            Ui.requestUpdate();
         }
         else{
         	Ui.pushView( new Rez.Menus.ChangeMode(), new ChangeModeInputDelegate(), Ui.SLIDE_LEFT );
@@ -57,6 +60,22 @@ class FondEcranMenuInputDelegate extends Ui.MenuInputDelegate {
         } 
         else if ( item == :item_2 ) {
             App.getApp().setProperty( "FondEcran", 1 );
+			Ui.requestUpdate();
+        }
+    }
+
+}
+
+
+class ChoixFieldMenuInputDelegate extends Ui.MenuInputDelegate {
+
+	function onMenuItem(item) {
+        if ( item == :item_1 ) {
+			App.getApp().setProperty( "Choix", 0 );
+			Ui.requestUpdate();   
+        } 
+        else if ( item == :item_2 ) {
+            App.getApp().setProperty( "Choix", 1 );
 			Ui.requestUpdate();
         }
     }

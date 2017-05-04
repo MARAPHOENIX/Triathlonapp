@@ -110,6 +110,18 @@ module Functions {
     	return Lang.format("$1$:$2$$3$", [result_min, result_sec.format("%02d"), result_per]);
     }
     
+    
+    function getMinutesPerKmOrMile(speedMetersPerSecond) {
+        if (speedMetersPerSecond != null && speedMetersPerSecond > 0.2) {
+            var metersPerMinute = speedMetersPerSecond * 60.0;
+            var minutesPerKmOrMilesDecimal = 1000 / metersPerMinute;
+            var minutesPerKmOrMilesFloor = minutesPerKmOrMilesDecimal.toNumber();
+            var seconds = (minutesPerKmOrMilesDecimal - minutesPerKmOrMilesFloor) * 60;
+            return minutesPerKmOrMilesDecimal.format("%2d") + ":" + seconds.format("%02d");
+        }
+        return "-:--";
+    }
+    
     function convertDistance(metres) {
     	var result;
     	
@@ -240,4 +252,20 @@ module Functions {
 		}
 		return Gfx.COLOR_DK_RED;
 	}
+	
+	 function computeAverageSpeed(tableau) {
+        var size = 0;
+        var data = tableau.getData();
+        var sumOfData = 0.0;
+        for (var i = 0; i < data.size(); i++) {
+            if (data[i] != null) {
+                sumOfData = sumOfData + data[i];
+                size++;
+            }
+        }
+        if (sumOfData > 0) {
+            return sumOfData / size;
+        }
+        return 0.0;
+    }
 }
