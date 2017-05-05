@@ -17,17 +17,26 @@ var lapPace = "";
 var lapDistance = "";
 var change = 0;
 var paceData = new DataQueue(10);
+var paceData30 = new DataQueue(30);
+var paceData3 = new DataQueue(3);
+
 var screen = 0;
 
 var lapInitDistance = 0.0;
 var lapInitTime = 0;
+var lapVel = 0.0d;
+
+var vue = 0;
+var dataLap = 0;
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
 
 
 	function onKey(evt) {
+	
 		if( evt.getKey() == Ui.KEY_ENTER ) {
 			if (App.getApp().getProperty( "TwoTimesPressLap" ) == true){
+				//System.println("twopress");
 				change = change + 1;
 				if (change == 2){
 					change = 0;
@@ -36,9 +45,15 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 				}
 			}
 			else{
+				//System.println("onepress");
 				TriData.nextDiscipline();
 				Ui.requestUpdate();
 			}
+		}
+		
+		if( evt.getKey() == Ui.KEY_MENU ) {
+			TriData.nextDisciplineDiscard();
+			Ui.requestUpdate();
 		}
 		
 		if( evt.getKey() == Ui.KEY_UP ) {
@@ -64,11 +79,32 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         
         
 		if( evt.getKey() == Ui.KEY_DOWN ) {
-    		if (App.getApp().getProperty( "Format" ) == 0){
-    			App.getApp().setProperty( "Format",1);
-	    	}else{
-	    		App.getApp().setProperty( "Format",0);
-	    	}
+			System.println("vue : " + vue + " - dataLap " + dataLap + " - Format : " +   App.getApp().getProperty( "Format" ) );
+		
+			if (vue == 0){
+				if (App.getApp().getProperty( "Format" ) == 0){
+    				App.getApp().setProperty( "Format",1);
+	    		}else{
+	    			App.getApp().setProperty( "Format",0);
+	    		}
+			}
+			
+			if (vue == 1){
+				if (dataLap  ==  0){
+					dataLap = 1;
+			
+				}else{
+					dataLap = 0;
+				}
+			}
+			
+			
+			if (vue == 0){
+				vue ++;
+			}else{
+				vue = 0;
+			}
+			
     		Ui.requestUpdate();
     
         }
@@ -94,21 +130,18 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 				
 			
 			TriData.nextLap();
-			//LapTime = elapsedLapTimeP + (autolapdistance - elapsedLapDistanceP)/(elapsedLapDistance - elapsedLapDistanceP)*(elapsedLapTime - elapsedLapTimeP);
 			LapTime = elapsedLapTime;
 			
 			lapInitTime = lapInitTime + LapTime;
-			//lapInitDistance = lapInitDistance + autolapdistance;
 			lapInitDistance = lapInitDistance + elapsedLapDistance;
 			
 			LapCounter = LapCounter + 1;
 			Ui.pushView(new LapView(), new RecordingViewInputDelegate(), Ui.SLIDE_IMMEDIATE);
 					
-			//elapsedLapTimeP = elapsedLapTime;
-			//elapsedLapDistanceP = elapsedLapDistance;
+	
 			
 				
-			lapPace = Functions.convertSpeedToPace(lapVel);
+			lapPace = Functions.convertSpeedToPace(lapVel,0);
         	lapDistance = Functions.convertDistance(elapsedLapDistance);
         	
     		Ui.requestUpdate();
@@ -163,16 +196,8 @@ class RecordingView extends Ui.View {
 
     //! Load your resources here
     function onLayout(dc) {
-		// Get the Heart Rate Sensor enabled
-    	
-    	
     	string_HR = "---";
-		
 		recordingtimer = new Timer.Timer();
-		recordingtimer.start( method(:recordingtimercallback), 100, false );
-		
-		
-		
     }
 
     //! Restore the state of the app and prepare the view to be shown
@@ -213,12 +238,10 @@ class RecordingView extends Ui.View {
 		
     }
     
-    function onSnsr(sensor_info)
-    {
+    function onSnsr(sensor_info) {
         var HR = sensor_info.heartRate;
         var bucket;
-        if( sensor_info.heartRate != null )
-        {
+        if( sensor_info.heartRate != null )  {
             string_HR = HR.toString();
             
             if (App.getApp().getProperty( "Choix" ) == 0){
@@ -226,12 +249,10 @@ class RecordingView extends Ui.View {
             }
 
         }
-        else
-        {
+        else  {
             string_HR = "---";
         }
         
-
     }
 
     //! The user has just looked at their watch. Timers and animations may be started here.
@@ -320,10 +341,14 @@ class RecordingView extends Ui.View {
 				calculateLapPace();
 				if(App.getApp().getProperty( "PaceField" ) == 0){
 					paceData.add(cursession.currentSpeed);
-					y = drawDataField( dc, "Pace:", Functions.convertSpeedToPace(Functions.computeAverageSpeed(paceData)), y );
+					paceData30.add(cursession.currentSpeed);
+    				paceData3.add(cursession.currentSpeed);
+					
+					y = drawDataField( dc, "Pace:", Functions.convertSpeedToPace(Functions.computeAverageSpeed(paceData),1), y );
+		
 				}
 				else if (App.getApp().getProperty( "PaceField" ) == 1){
-					y = drawDataField( dc, "Avg. Pace:", Functions.convertSpeedToPace(cursession.averageSpeed), y );
+					y = drawDataField( dc, "Avg. Pace:", Functions.convertSpeedToPace(cursession.averageSpeed,1), y );
 				}
 				else{
 					y = drawDataField( dc, "Lap Pace:", lapPace, y );
@@ -348,16 +373,30 @@ class RecordingView extends Ui.View {
 		var cursession = Act.getActivityInfo();
 		//vitesse moy 10s
 		paceData.add(cursession.currentSpeed);
+		paceData30.add(cursession.currentSpeed);
+    	paceData3.add(cursession.currentSpeed);
 		var computeAvgSpeed = Functions.computeAverageSpeed(paceData);
+		var computeAvgSpeed3s = Functions.computeAverageSpeed(paceData3);
+		var computeAvgSpeed30s = Functions.computeAverageSpeed(paceData30);
+		
 		var font = Graphics.FONT_NUMBER_HOT;
 		
 		var data = Functions.getMinutesPerKmOrMile(computeAvgSpeed);
 		var largeur = dc.getWidth()/2 - 3;
 		var avg = Functions.getMinutesPerKmOrMile(cursession.averageSpeed);
+		
+		if (dataLap == 1){
+			avg =Functions.getMinutesPerKmOrMile(lapVel);
+		}
+		
 		if (App.getApp().getProperty( "Format" ) == 1){
 			data = Functions.convertSpeedToBike(computeAvgSpeed,0);
 			largeur =  dc.getWidth()/2 + 3;
 			avg = Functions.convertSpeedToBike(cursession.averageSpeed,0);
+			if (dataLap == 1){
+				avg = Functions.convertSpeedToBike(lapVel,0);
+			}
+			
 		}
 		
 	    if (computeAvgSpeed>=1.67){
@@ -377,10 +416,32 @@ class RecordingView extends Ui.View {
 		
 		//chrono 
 		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
-		dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
+		
+		
+		if (dataLap == 1){
+			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTimeWithDecimals(LapTime.toLong()), CENTER);
+			dc.drawText(dc.getWidth()/2+68, dc.getHeight()/2+50, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
+		}else{
+			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
+		}
+		
+		
+		
+		
+		//dc.drawText(dc.getWidth()/2, dc.getFontHeight(Gfx.FONT_LARGE)-30, Gfx.FONT_LARGE, "Lap " + LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
+		//dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2 -45, Gfx.FONT_NUMBER_HOT, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
+		//dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, lapPace, Gfx.TEXT_JUSTIFY_CENTER);
+		//dc.drawText(dc.getWidth()/2, dc.getHeight()/2 +40, Gfx.FONT_NUMBER_MEDIUM, lapDistance, Gfx.TEXT_JUSTIFY_CENTER);
+		
 		
 		//distance
-		dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
+		if (dataLap == 1){
+			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, lapDistance, CENTER);
+		}else{
+			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
+		}
+		
+		
 		
 		//cadence
 		var cadence = cursession.currentCadence != null ? cursession.currentCadence : 0;
@@ -401,6 +462,40 @@ class RecordingView extends Ui.View {
         dc.drawText(106, 10, Graphics.FONT_TINY, time, CENTER);
         var battery = System.getSystemStats().battery;
         dc.drawText(142, 11, Graphics.FONT_XTINY,battery.format("%d"), CENTER);
+        
+        var color = inverseTextColor;
+        if (App.getApp().getProperty( "FondEcran" ) == 1){
+        	color = textColor;
+        }
+        
+        //tendance vitesse
+        if (computeAvgSpeed >=computeAvgSpeed3s ){
+		   dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+		   dc.fillPolygon([[30,40],[50, 40],[40,55]]);
+		}else if (computeAvgSpeed3s > computeAvgSpeed){
+			dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+		    dc.fillPolygon([[30,55],[50, 55],[40,40]]);
+		}
+		
+		//tendance avg
+        var vMoy = cursession.averageSpeed != null ? cursession.averageSpeed : 0;
+        if (dataLap == 1){
+        	vMoy = lapVel;
+        }
+        
+        //System.println("Vmoy " + vMoy +" - " + computeAvgSpeed30s);
+        if (vMoy>computeAvgSpeed30s){
+             dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+             dc.fillPolygon([[30,170],[50, 170],[40,185]]);//DOWN
+        }else if (computeAvgSpeed30s>=vMoy){
+            dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+            dc.fillPolygon([[30,185],[50, 185],[40,170]]);//UP
+        }
+        
+        calculateLapPace();
+        
+        //System.println("lapace : " + lapPace + " - " + lapDistance + " - " + LapTime + " - " + Functions.convertSpeedToBike(lapVel,0) + " - " + avg ); 
+        
         
         //grid
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
@@ -432,7 +527,7 @@ class RecordingView extends Ui.View {
 		var cursession = Act.getActivityInfo();
 		var elapsedLapTime = 0; // (ms)  
 		var elapsedLapDistance = 0.0; // (m)
-		var lapVel = 0.0d;
+		
 		var elapsedTime = cursession.elapsedTime;
 		var elapsedDistance = cursession.elapsedDistance;
 		
@@ -464,7 +559,9 @@ class RecordingView extends Ui.View {
 				elapsedLapDistanceP = elapsedLapDistance;
 			}
 		}	
-		lapPace = Functions.convertSpeedToPace(lapVel);
+		lapPace = Functions.convertSpeedToPace(lapVel,0);
+		lapDistance = Functions.convertDistance(elapsedLapDistance);
+		LapTime = elapsedLapTime;
 		return lapPace;
 	}
 	

@@ -88,6 +88,40 @@ module TriData {
 		}
 	}
 	
+	function nextDisciplineDiscard() {
+		ChangedDiscipline = true;
+		if( currentDiscipline >= 0 ) {
+			if (currentDiscipline != 1){
+				if (settings.vibrateOn == true){
+					Att.vibrate( vibrateData );
+				}
+				if (settings.tonesOn == true){
+					Att.playTone(Att.TONE_LAP);
+				}
+			}
+			else{
+				if (settings.vibrateOn == true){
+					Att.vibrate( vibrateData1 );
+				}
+				if (settings.tonesOn == true){
+					Att.playTone(Att.TONE_SUCCESS);
+				}
+			}
+			disciplines[currentDiscipline].onEndDiscard();
+		}
+		currentDiscipline++;
+//INIT
+		//if( currentDiscipline == 5 ) {
+		//	currentDiscipline = 4;
+		if( currentDiscipline == 1 ) {
+			currentDiscipline = 0;
+			Ui.switchToView(new FinishView(), new FinishViewInputDelegate(), Ui.SLIDE_UP);
+		} else {
+			disciplines[currentDiscipline].onBegin();
+			Ui.requestUpdate();
+		}
+	}
+	
 	function nextLap(){
 		if (settings.vibrateOn == true){
 			Att.vibrate( vibrateData );

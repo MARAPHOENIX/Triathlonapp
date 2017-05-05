@@ -93,7 +93,7 @@ module Functions {
     	return Lang.format("$1$ $2$", [speedStr, result_format]); 
     }
     
-    function convertSpeedToPace(speed) {
+    function convertSpeedToPace(speed,unite) {
     	var result_min;
     	var result_sec;
     	var result_per;
@@ -104,9 +104,15 @@ module Functions {
 		result_sec = 0;
 		if( settings.paceUnits == Sys.UNIT_METRIC ) {
 			result_per = "/km";
+			if (unite==0){
+				result_per = "";
+			}
 			conversionvalue = 1000.0d;
 		} else {
     		result_per = "/mi";
+    		if (unite==0){
+				result_per = "";
+			}
     		conversionvalue = 1609.34d;
     	}
 

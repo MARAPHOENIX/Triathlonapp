@@ -88,6 +88,32 @@ class Discipline {
 		disciplineSession = null;
 	}
 	
+	function onEndDiscard() {
+		System.println("Discard");
+		endTime = Sys.getTimer();
+		if( TriData.currentDiscipline == 0 || TriData.currentDiscipline == 2 || TriData.currentDiscipline == 4 ){
+    		if( disciplineSession != null && disciplineSession.isRecording() )
+    		{
+    			var stoptrue = false;
+    			var savetrue = false;	
+				do{
+				stoptrue = disciplineSession.stop();
+				}
+				while(stoptrue == false); 
+			
+				do {
+    			savetrue = disciplineSession.discard();
+				}
+				while( savetrue == false );
+			
+			
+				disciplineSession = null;
+				Ui.requestUpdate();
+    		}
+    	}
+		disciplineSession = null;
+	}
+	
 	function addRunLap(){
 		if( disciplineSession != null && disciplineSession.isRecording() ){
 			var addedlap = false;
