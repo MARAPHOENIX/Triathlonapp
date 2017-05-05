@@ -113,7 +113,8 @@ module Functions {
     		if (unite==0){
 				result_per = "";
 			}
-    		conversionvalue = 1609.34d;
+    		//conversionvalue = 1609.34d;
+    		conversionvalue = 1000.0d;
     	}
 
 		if( speed != null && speed > 0 ) {

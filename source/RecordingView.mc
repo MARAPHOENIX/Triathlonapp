@@ -79,7 +79,7 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         
         
 		if( evt.getKey() == Ui.KEY_DOWN ) {
-			System.println("vue : " + vue + " - dataLap " + dataLap + " - Format : " +   App.getApp().getProperty( "Format" ) );
+			//System.println("vue : " + vue + " - dataLap " + dataLap + " - Format : " +   App.getApp().getProperty( "Format" ) );
 		
 			if (vue == 0){
 				if (App.getApp().getProperty( "Format" ) == 0){
@@ -338,19 +338,20 @@ class RecordingView extends Ui.View {
 				y = drawDataField( dc, "Vel.:", Functions.convertSpeedToBike(cursession.currentSpeed,1), y );
 			}
 			else if ( TriData.disciplines[TriData.currentDiscipline].currentStage == 4 ){
+				paceData.add(cursession.currentSpeed);
+				paceData30.add(cursession.currentSpeed);
+    			paceData3.add(cursession.currentSpeed);
 				calculateLapPace();
 				if(App.getApp().getProperty( "PaceField" ) == 0){
-					paceData.add(cursession.currentSpeed);
-					paceData30.add(cursession.currentSpeed);
-    				paceData3.add(cursession.currentSpeed);
-					
 					y = drawDataField( dc, "Pace:", Functions.convertSpeedToPace(Functions.computeAverageSpeed(paceData),1), y );
-		
 				}
 				else if (App.getApp().getProperty( "PaceField" ) == 1){
 					y = drawDataField( dc, "Avg. Pace:", Functions.convertSpeedToPace(cursession.averageSpeed,1), y );
 				}
 				else{
+					//System.println("lapPace : " + lapPace + " - " + Functions.convertSpeedToPace(Functions.computeAverageSpeed(paceData),1) + " - " +  Functions.convertSpeedToPace(cursession.averageSpeed,1));
+					//System.println("lapPace : " + lapPace + " - " + LapTime);
+					
 					y = drawDataField( dc, "Lap Pace:", lapPace, y );
 				}
 			}
@@ -419,14 +420,14 @@ class RecordingView extends Ui.View {
 		
 		
 		if (dataLap == 1){
-			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTimeWithDecimals(LapTime.toLong()), CENTER);
+			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime), CENTER);
 			dc.drawText(dc.getWidth()/2+68, dc.getHeight()/2+50, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
 		}else{
 			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
 		}
 		
 		
-		
+		//dataLap = 1;
 		
 		//dc.drawText(dc.getWidth()/2, dc.getFontHeight(Gfx.FONT_LARGE)-30, Gfx.FONT_LARGE, "Lap " + LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
 		//dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2 -45, Gfx.FONT_NUMBER_HOT, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
@@ -495,6 +496,7 @@ class RecordingView extends Ui.View {
         calculateLapPace();
         
         //System.println("lapace : " + lapPace + " - " + lapDistance + " - " + LapTime + " - " + Functions.convertSpeedToBike(lapVel,0) + " - " + avg ); 
+        //System.println("lapPace : " + lapPace + " - " + LapTime + " - " + lapDistance);
         
         
         //grid
