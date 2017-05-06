@@ -26,6 +26,10 @@ var lapInitDistance = 0.0;
 var lapInitTime = 0;
 var lapVel = 0.0d;
 
+var lapManuel = false;
+
+var vue = 0;
+var dataLap = 0;
 
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
@@ -78,11 +82,29 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         
         
 		if( evt.getKey() == Ui.KEY_DOWN ) {
-			if (App.getApp().getProperty( "Format" ) == 0){
-    			App.getApp().setProperty( "Format",1);
-	    	}else{
-	    		App.getApp().setProperty( "Format",0);
-	    	}
+			if (vue == 0){
+				if (App.getApp().getProperty( "Format" ) == 0){
+    				App.getApp().setProperty( "Format",1);
+	    		}else{
+	    			App.getApp().setProperty( "Format",0);
+	    		}
+			}
+			
+			if (vue == 1){
+				if (dataLap  ==  0){
+					dataLap = 1;
+			
+				}else{
+					dataLap = 0;
+				}
+			}
+			
+			
+			if (vue == 0){
+				vue ++;
+			}else{
+				vue = 0;
+			}
 
     		Ui.requestUpdate();
         }
@@ -90,6 +112,7 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         
         if( evt.getKey() ==  Ui.KEY_ESC  ) {
         	//TODO Implémenter lap manuel
+        	lapManuel = true;
         }
         
         
@@ -314,6 +337,9 @@ class RecordingView extends Ui.View {
 	
 	
 	function drawDataFields(dc,color) {
+		//on calcule le lap pace
+		calculateLapPace();
+	
 		dc.setColor(color, Gfx.COLOR_TRANSPARENT);
 		var cursession = Act.getActivityInfo();
 		//vitesse moy 10s
@@ -329,6 +355,10 @@ class RecordingView extends Ui.View {
 		var data = Functions.getMinutesPerKmOrMile(computeAvgSpeed);
 		var largeur = dc.getWidth()/2 - 3;
 		var avg = Functions.getMinutesPerKmOrMile(cursession.averageSpeed);
+		
+		if (dataLap == 1){
+			avg = Functions.getMinutesPerKmOrMile(lapVel);
+		}
 	
 		if (App.getApp().getProperty( "Format" ) == 1){
 			data = Functions.convertSpeedToBike(computeAvgSpeed,0);
@@ -353,10 +383,20 @@ class RecordingView extends Ui.View {
 		
 		//chrono 
 		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
-		dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
+		//dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
+		if (dataLap == 1){
+			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime), CENTER);
+			dc.drawText(dc.getWidth()/2+68, dc.getHeight()/2+50, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
+		}else{
+			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
+		}
 		
 		//distance
-		dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
+		if (dataLap == 1){
+			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, lapDistance, CENTER);
+		}else{
+			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
+		}
 		
 		
 		//cadence
@@ -405,7 +445,7 @@ class RecordingView extends Ui.View {
             dc.fillPolygon([[30,185],[50, 185],[40,170]]);//UP
         }
         
-        calculateLapPace();
+        
         
         //System.println("lapace : " + lapPace + " - " + lapDistance + " - " + LapTime + " - " + Functions.convertSpeedToBike(lapVel,0) + " - " + avg ); 
         //System.println("lapPace : " + lapPace + " - " + LapTime + " - " + lapDistance);
@@ -458,14 +498,23 @@ class RecordingView extends Ui.View {
 					lapVel = elapsedLapDistance.toDouble()/(elapsedLapTime.toDouble()/1000);
 				}
 			}
-			
-			if (App.getApp().getProperty( "AutolapMode" ) == true){
+		
+			if (App.getApp().getProperty( "AutolapMode" ) == true || lapManuel == true){
 				var autolapdistance = Functions.convertToMeters(App.getApp().getProperty( "AutolapDistance" ));
-				if (elapsedLapDistance >= autolapdistance){
+				
+				if (elapsedLapDistance >= autolapdistance || lapManuel == true){
 					TriData.nextLap();
-					LapTime = elapsedLapTimeP + (autolapdistance - elapsedLapDistanceP)/(elapsedLapDistance - elapsedLapDistanceP)*(elapsedLapTime - elapsedLapTimeP);
-					lapInitTime = lapInitTime + LapTime;
-					lapInitDistance = lapInitDistance + autolapdistance;
+					
+					if (lapManuel == true){
+						LapTime = elapsedLapTime;
+						lapInitTime = lapInitTime + LapTime;
+						lapInitDistance = lapInitDistance + elapsedLapDistance;
+					}else{
+						LapTime = elapsedLapTimeP + (autolapdistance - elapsedLapDistanceP)/(elapsedLapDistance - elapsedLapDistanceP)*(elapsedLapTime - elapsedLapTimeP);
+						lapInitTime = lapInitTime + LapTime;
+						lapInitDistance = lapInitDistance + autolapdistance;
+					}
+					
 					LapCounter = LapCounter + 1;
 					Ui.pushView(new LapView(), new RecordingViewInputDelegate(), Ui.SLIDE_IMMEDIATE);
 				}
@@ -523,6 +572,7 @@ class LapView extends Ui.View {
 			counter = counter + 1;
 		}
 		else{
+			lapManuel = false;
 			Ui.popView(Ui.SLIDE_IMMEDIATE);
 		}
 	}	
