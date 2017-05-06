@@ -26,8 +26,7 @@ var lapInitDistance = 0.0;
 var lapInitTime = 0;
 var lapVel = 0.0d;
 
-var vue = 0;
-var dataLap = 0;
+
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
 
@@ -79,73 +78,18 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         
         
 		if( evt.getKey() == Ui.KEY_DOWN ) {
-			//System.println("vue : " + vue + " - dataLap " + dataLap + " - Format : " +   App.getApp().getProperty( "Format" ) );
-		
-			if (vue == 0){
-				if (App.getApp().getProperty( "Format" ) == 0){
-    				App.getApp().setProperty( "Format",1);
-	    		}else{
-	    			App.getApp().setProperty( "Format",0);
-	    		}
-			}
-			
-			if (vue == 1){
-				if (dataLap  ==  0){
-					dataLap = 1;
-			
-				}else{
-					dataLap = 0;
-				}
-			}
-			
-			
-			if (vue == 0){
-				vue ++;
-			}else{
-				vue = 0;
-			}
-			
+			if (App.getApp().getProperty( "Format" ) == 0){
+    			App.getApp().setProperty( "Format",1);
+	    	}else{
+	    		App.getApp().setProperty( "Format",0);
+	    	}
+
     		Ui.requestUpdate();
-    
         }
         
         
         if( evt.getKey() ==  Ui.KEY_ESC  ) {
-        	//lap idem onTimerLap
-        	var cursession = Act.getActivityInfo();
-			var elapsedLapTime = 0; // (ms)  
-			var elapsedLapDistance = 0.0; // (m)
-			var lapVel = 0.0d;
-			var elapsedTime = cursession.elapsedTime;
-			var elapsedDistance = cursession.elapsedDistance;
-			
-		
-			if ( elapsedTime != null && elapsedTime > 0 && elapsedDistance != null  && elapsedDistance > 0){
-				elapsedLapTime = cursession.elapsedTime - lapInitTime;
-				elapsedLapDistance = cursession.elapsedDistance - lapInitDistance;
-				if ( elapsedLapTime > 0 && elapsedLapDistance > 0 ){
-					lapVel = elapsedLapDistance.toDouble()/(elapsedLapTime.toDouble()/1000);
-				}
-			}
-				
-			
-			TriData.nextLap();
-			LapTime = elapsedLapTime;
-			
-			lapInitTime = lapInitTime + LapTime;
-			lapInitDistance = lapInitDistance + elapsedLapDistance;
-			
-			LapCounter = LapCounter + 1;
-			Ui.pushView(new LapView(), new RecordingViewInputDelegate(), Ui.SLIDE_IMMEDIATE);
-					
-	
-			
-				
-			lapPace = Functions.convertSpeedToPace(lapVel,0);
-        	lapDistance = Functions.convertDistance(elapsedLapDistance);
-        	
-    		Ui.requestUpdate();
-    
+        	//TODO Implémenter lap manuel
         }
         
         
@@ -385,19 +329,11 @@ class RecordingView extends Ui.View {
 		var data = Functions.getMinutesPerKmOrMile(computeAvgSpeed);
 		var largeur = dc.getWidth()/2 - 3;
 		var avg = Functions.getMinutesPerKmOrMile(cursession.averageSpeed);
-		
-		if (dataLap == 1){
-			avg =Functions.getMinutesPerKmOrMile(lapVel);
-		}
-		
+	
 		if (App.getApp().getProperty( "Format" ) == 1){
 			data = Functions.convertSpeedToBike(computeAvgSpeed,0);
 			largeur =  dc.getWidth()/2 + 3;
 			avg = Functions.convertSpeedToBike(cursession.averageSpeed,0);
-			if (dataLap == 1){
-				avg = Functions.convertSpeedToBike(lapVel,0);
-			}
-			
 		}
 		
 	    if (computeAvgSpeed>=1.67){
@@ -417,31 +353,10 @@ class RecordingView extends Ui.View {
 		
 		//chrono 
 		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
-		
-		
-		if (dataLap == 1){
-			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime), CENTER);
-			dc.drawText(dc.getWidth()/2+68, dc.getHeight()/2+50, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
-		}else{
-			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
-		}
-		
-		
-		//dataLap = 1;
-		
-		//dc.drawText(dc.getWidth()/2, dc.getFontHeight(Gfx.FONT_LARGE)-30, Gfx.FONT_LARGE, "Lap " + LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
-		//dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2 -45, Gfx.FONT_NUMBER_HOT, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
-		//dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, lapPace, Gfx.TEXT_JUSTIFY_CENTER);
-		//dc.drawText(dc.getWidth()/2, dc.getHeight()/2 +40, Gfx.FONT_NUMBER_MEDIUM, lapDistance, Gfx.TEXT_JUSTIFY_CENTER);
-		
+		dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
 		
 		//distance
-		if (dataLap == 1){
-			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, lapDistance, CENTER);
-		}else{
-			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
-		}
-		
+		dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
 		
 		
 		//cadence
@@ -480,9 +395,6 @@ class RecordingView extends Ui.View {
 		
 		//tendance avg
         var vMoy = cursession.averageSpeed != null ? cursession.averageSpeed : 0;
-        if (dataLap == 1){
-        	vMoy = lapVel;
-        }
         
         //System.println("Vmoy " + vMoy +" - " + computeAvgSpeed30s);
         if (vMoy>computeAvgSpeed30s){
