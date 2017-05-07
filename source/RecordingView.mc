@@ -364,6 +364,10 @@ class RecordingView extends Ui.View {
 			data = Functions.convertSpeedToBike(computeAvgSpeed,0);
 			largeur =  dc.getWidth()/2 + 3;
 			avg = Functions.convertSpeedToBike(cursession.averageSpeed,0);
+			
+			if (dataLap == 1){
+				avg = Functions.convertSpeedToBike(lapVel,0);
+			}
 		}
 		
 	    if (computeAvgSpeed>=1.67){
@@ -435,6 +439,11 @@ class RecordingView extends Ui.View {
 		
 		//tendance avg
         var vMoy = cursession.averageSpeed != null ? cursession.averageSpeed : 0;
+        
+        if (dataLap == 1){
+        	vMoy = lapVel != null ? lapVel : 0;
+        	//System.println("vMoy = lapVel : " +lapVel); 
+        }
         
         //System.println("Vmoy " + vMoy +" - " + computeAvgSpeed30s);
         if (vMoy>computeAvgSpeed30s){
