@@ -31,6 +31,10 @@ var lapManuel = false;
 var vue = 0;
 var dataLap = 0;
 
+var distance = 0;
+var chrono = 0;
+var delta = 0;
+var avgSpeedCalc= 0;
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
 
@@ -112,6 +116,29 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         
         if( evt.getKey() ==  Ui.KEY_ESC  ) {
         	//TODO Implémenter lap manuel
+        	//System.println(App.getApp().getProperty( "LapCalc"));
+        	//System.println("LapTime : "  + LapTime);
+        	
+        	if (LapTime<10000){
+        		if (App.getApp().getProperty( "LapCalc" ) == 0){
+    				App.getApp().setProperty( "LapCalc",1);
+	    		}else{
+	    			App.getApp().setProperty( "LapCalc",0);
+	    		}
+        	}
+        	if (App.getApp().getProperty( "LapCalc") == 1){
+        		var res = 0;
+	   			//System.println("distance lap " + distance.toNumber()) ;
+	      		 if (Math.round(distance.toNumber() % 1000)>=500){
+	       			res = 1000 - Math.round(distance.toNumber() % 1000);
+	       			delta = res;
+	       		}else{
+	       			res = Math.round(distance.toNumber() % 1000);
+	       			delta = -res;
+	       		}
+	       		//System.println("delta : " + delta);
+        	}
+        	
         	lapManuel = true;
         }
         
@@ -339,6 +366,10 @@ class RecordingView extends Ui.View {
 	function drawDataFields(dc,color) {
 		//on calcule le lap pace
 		calculateLapPace();
+		
+		//chrono 
+		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
+		chrono = elapsedTime;
 	
 		dc.setColor(color, Gfx.COLOR_TRANSPARENT);
 		var cursession = Act.getActivityInfo();
@@ -370,6 +401,15 @@ class RecordingView extends Ui.View {
 			}
 		}
 		
+		distance = cursession.elapsedDistance != null ? cursession.elapsedDistance : 0;
+		
+		if (App.getApp().getProperty( "LapCalc") == 1){
+			if (distance>0 && chrono>0){
+        	   distance = distance + delta;
+        	   avg = Functions.getMinutesPerKmOrMile(distance / chrono * 1000); 
+        	   //System.println("avg calc : " + avg);
+	    	}
+		}
 	    if (computeAvgSpeed>=1.67){
         	font =  Graphics.FONT_NUMBER_THAI_HOT;
         	dc.drawText(largeur, 57, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
@@ -385,8 +425,6 @@ class RecordingView extends Ui.View {
 		//vmoy
 		dc.drawText(110, 180, Graphics.FONT_NUMBER_HOT,avg, CENTER);
 		
-		//chrono 
-		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
 		//dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
 		if (dataLap == 1){
 			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime), CENTER);
@@ -399,9 +437,10 @@ class RecordingView extends Ui.View {
 		if (dataLap == 1){
 			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, lapDistance, CENTER);
 		}else{
-			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(cursession.elapsedDistance), CENTER);
+			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(distance), CENTER);
 		}
 		
+	
 		
 		//cadence
 		var cadence = cursession.currentCadence != null ? cursession.currentCadence : 0;
