@@ -32,9 +32,13 @@ var vue = 0;
 var dataLap = 0;
 
 var distance = 0;
+var distanceCalc = 0;
 var chrono = 0;
 var delta = 0;
 var avgSpeedCalc= 0;
+
+//properties
+var lapCalc;
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
 
@@ -120,13 +124,14 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         	//System.println("LapTime : "  + LapTime);
         	
         	if (LapTime<10000){
-        		if (App.getApp().getProperty( "LapCalc" ) == 0){
-    				App.getApp().setProperty( "LapCalc",1);
+        		if (lapCalc == 0){
+    				lapCalc = 1;
 	    		}else{
-	    			App.getApp().setProperty( "LapCalc",0);
+	    			lapCalc = 0;
 	    		}
         	}
-        	if (App.getApp().getProperty( "LapCalc") == 1){
+        	//System.println("lapCalc " + lapCalc);
+        	if (lapCalc == 1){
         		var res = 0;
 	   			//System.println("distance lap " + distance.toNumber()) ;
 	      		 if (Math.round(distance.toNumber() % 1000)>=500){
@@ -192,6 +197,7 @@ class RecordingView extends Ui.View {
     function onLayout(dc) {
     	string_HR = "---";
 		recordingtimer = new Timer.Timer();
+		lapCalc = App.getApp().getProperty( "LapCalc");
     }
 
     //! Restore the state of the app and prepare the view to be shown
@@ -402,11 +408,19 @@ class RecordingView extends Ui.View {
 		}
 		
 		distance = cursession.elapsedDistance != null ? cursession.elapsedDistance : 0;
+		distanceCalc = distance;
 		
-		if (App.getApp().getProperty( "LapCalc") == 1){
+		
+		//System.println("AVG : " + lapCalc + " - "  + dataLap);
+		if (lapCalc == 1){
 			if (distance>0 && chrono>0){
-        	   distance = distance + delta;
-        	   avg = Functions.getMinutesPerKmOrMile(distance / chrono * 1000); 
+        	   distanceCalc = distance + delta;
+        	   avg = Functions.getMinutesPerKmOrMile(distanceCalc / chrono * 1000); 
+        	   
+        	   if (App.getApp().getProperty( "Format" ) == 1) {
+        	   		avg = Functions.convertSpeedToBike((distanceCalc / chrono * 1000),0); 
+        	   		//System.println("avg vel " + avg);
+        	   }
         	   //System.println("avg calc : " + avg);
 	    	}
 		}
@@ -437,7 +451,7 @@ class RecordingView extends Ui.View {
 		if (dataLap == 1){
 			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, lapDistance, CENTER);
 		}else{
-			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(distance), CENTER);
+			dc.drawText(50 , 131, Graphics.FONT_NUMBER_MEDIUM, Functions.convertDistance(distanceCalc), CENTER);
 		}
 		
 	
@@ -484,6 +498,14 @@ class RecordingView extends Ui.View {
         	//System.println("vMoy = lapVel : " +lapVel); 
         }
         
+        if (lapCalc == 1){
+        	if (distance>0 && chrono>0){
+        	   distanceCalc = distance + delta;
+        	   vMoy = distanceCalc / chrono * 1000; 
+        	   //System.println("avg calc : " + avg);
+	    	}
+        }
+        
         //System.println("Vmoy " + vMoy +" - " + computeAvgSpeed30s);
         if (vMoy>computeAvgSpeed30s){
              dc.setColor(color, Graphics.COLOR_TRANSPARENT);
@@ -501,6 +523,9 @@ class RecordingView extends Ui.View {
         
         //grid
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+        if (lapCalc == 1){
+             dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
+        }
         dc.drawLine(0, 100, dc.getWidth(), 100);
         dc.drawLine(0, 156, dc.getWidth(), 156);
 	}
