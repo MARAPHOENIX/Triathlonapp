@@ -143,10 +143,12 @@ class TriathlonView extends Ui.View {
 		// Draw the current Mode
 		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_BLACK);
 		if( App.getApp().getProperty( "TriathlonMode" ) == 0 ){
-			string_type="Triathlon";
+			//string_type="Triathlon";
+			string_type="Course";
 		}
 		else if ( App.getApp().getProperty( "TriathlonMode" ) == 1 ){
 			string_type="Aquathlon";
+			string_type="Vélo";		
 		}
 		else{
 			string_type="Duathlon";

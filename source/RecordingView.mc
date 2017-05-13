@@ -39,6 +39,7 @@ var avgSpeedCalc= 0;
 
 //properties
 var lapCalc;
+var lapCalcOn=false;
 
 class RecordingViewInputDelegate extends Ui.InputDelegate {
 
@@ -120,29 +121,31 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         
         if( evt.getKey() ==  Ui.KEY_ESC  ) {
         	//TODO Implémenter lap manuel
-        	//System.println(App.getApp().getProperty( "LapCalc"));
+        	//System.println("LapClacOn : " + lapCalcOn + " " + lapCalc);
         	//System.println("LapTime : "  + LapTime);
+        	if (lapCalcOn){
+        		if (LapTime<10000){
+        			if (lapCalc == 0){
+    					lapCalc = 1;
+	    			}else{
+	    				lapCalc = 0;
+	    			}
+        		}
+        		//System.println("lapCalc " + lapCalc);
+        		if (lapCalc == 1){
+        			var res = 0;
+	   				//System.println("distance lap " + distance.toNumber()) ;
+	      		 	if (Math.round(distance.toNumber() % 1000)>=500){
+	       				res = 1000 - Math.round(distance.toNumber() % 1000);
+	       				delta = res;
+	       			}else{
+	       				res = Math.round(distance.toNumber() % 1000);
+	       				delta = -res;
+	       			}
+	       			//System.println("delta : " + delta);
+        		}
+        	}
         	
-        	if (LapTime<10000){
-        		if (lapCalc == 0){
-    				lapCalc = 1;
-	    		}else{
-	    			lapCalc = 0;
-	    		}
-        	}
-        	//System.println("lapCalc " + lapCalc);
-        	if (lapCalc == 1){
-        		var res = 0;
-	   			//System.println("distance lap " + distance.toNumber()) ;
-	      		 if (Math.round(distance.toNumber() % 1000)>=500){
-	       			res = 1000 - Math.round(distance.toNumber() % 1000);
-	       			delta = res;
-	       		}else{
-	       			res = Math.round(distance.toNumber() % 1000);
-	       			delta = -res;
-	       		}
-	       		//System.println("delta : " + delta);
-        	}
         	
         	lapManuel = true;
         }
@@ -198,6 +201,8 @@ class RecordingView extends Ui.View {
     	string_HR = "---";
 		recordingtimer = new Timer.Timer();
 		lapCalc = App.getApp().getProperty( "LapCalc");
+		//System.println("lap on layout" + lapCalc + "-" + (lapCalc == 1));
+		lapCalcOn = lapCalc == 1 ? true : false;
     }
 
     //! Restore the state of the app and prepare the view to be shown
@@ -441,7 +446,8 @@ class RecordingView extends Ui.View {
 		
 		//dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
 		if (dataLap == 1){
-			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime), CENTER);
+			//System.println("LapTime " + LapTime.toNumber()); 
+			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime.toNumber()), CENTER);
 			dc.drawText(dc.getWidth()/2+68, dc.getHeight()/2+50, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
 		}else{
 			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
