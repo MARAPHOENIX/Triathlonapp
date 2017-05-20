@@ -69,20 +69,28 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 		}
 		
 		if( evt.getKey() == Ui.KEY_UP ) {
-			if (screen == 0){
-				if (App.getApp().getProperty( "Choix" ) == 0){
-	    			App.getApp().setProperty( "Choix",1);
+			if (lapCalcOn){
+				if (lapCalc == 0){
+    				lapCalc = 1;
 	    		}else{
-	    			App.getApp().setProperty( "Choix",0);
+	    			lapCalc = 0;
 	    		}
-	    		screen = 1;
 			}else{
-				if (App.getApp().getProperty( "FondEcran" ) == 0){
-    				App.getApp().setProperty( "FondEcran",1);
-    			}else{
-    				App.getApp().setProperty( "FondEcran",0);
-    			}
-				screen = 0;
+				if (screen == 0){
+					if (App.getApp().getProperty( "Choix" ) == 0){
+		    			App.getApp().setProperty( "Choix",1);
+		    		}else{
+		    			App.getApp().setProperty( "Choix",0);
+		    		}
+		    		screen = 1;
+				}else{
+					if (App.getApp().getProperty( "FondEcran" ) == 0){
+	    				App.getApp().setProperty( "FondEcran",1);
+	    			}else{
+	    				App.getApp().setProperty( "FondEcran",0);
+	    			}
+					screen = 0;
+				}
 			}
     		
     		Ui.requestUpdate();
@@ -531,6 +539,8 @@ class RecordingView extends Ui.View {
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         if (lapCalc == 1){
              dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
+             dc.drawLine(0, 99, dc.getWidth(), 99);
+        	 dc.drawLine(0, 155, dc.getWidth(), 155);
         }
         dc.drawLine(0, 100, dc.getWidth(), 100);
         dc.drawLine(0, 156, dc.getWidth(), 156);
