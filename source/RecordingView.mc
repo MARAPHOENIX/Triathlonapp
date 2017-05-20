@@ -537,6 +537,23 @@ class RecordingView extends Ui.View {
         }
         dc.drawLine(0, 100, dc.getWidth(), 100);
         dc.drawLine(0, 156, dc.getWidth(), 156);
+        
+        if (vMoy>4.17){
+        	color = Graphics.COLOR_BLUE;
+        	if (vMoy>4.45){
+        		color = Graphics.COLOR_GREEN;
+        	}
+        	if (vMoy>4.723){
+        		color = Graphics.COLOR_ORANGE;
+        	}
+        	if (vMoy>5){
+        	  	color = Graphics.COLOR_RED;
+        	}
+        	
+        	dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+       		dc.fillRectangle(154,157,62,28);
+        }
+        
 	}
 	
 	function drawDataField(dc, label, value, y) {
