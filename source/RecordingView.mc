@@ -132,13 +132,6 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
         	//System.println("LapClacOn : " + lapCalcOn + " " + lapCalc);
         	//System.println("LapTime : "  + LapTime);
         	if (lapCalcOn){
-        		if (LapTime<10000){
-        			if (lapCalc == 0){
-    					lapCalc = 1;
-	    			}else{
-	    				lapCalc = 0;
-	    			}
-        		}
         		//System.println("lapCalc " + lapCalc);
         		if (lapCalc == 1){
         			var res = 0;
@@ -653,7 +646,11 @@ class LapView extends Ui.View {
 		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 		dc.drawText(dc.getWidth()/2, dc.getFontHeight(Gfx.FONT_LARGE)-30, Gfx.FONT_LARGE, "Lap " + LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2 -45, Gfx.FONT_NUMBER_HOT, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, lapPace, Gfx.TEXT_JUSTIFY_CENTER);
+		if (App.getApp().getProperty( "Format" ) == 1){
+			dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, Functions.convertSpeedToBike(lapVel,0), Gfx.TEXT_JUSTIFY_CENTER);
+		}else{
+			dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, lapPace, Gfx.TEXT_JUSTIFY_CENTER);
+		}
 		dc.drawText(dc.getWidth()/2, dc.getHeight()/2 +40, Gfx.FONT_NUMBER_MEDIUM, lapDistance, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		

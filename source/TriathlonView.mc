@@ -147,8 +147,8 @@ class TriathlonView extends Ui.View {
 			string_type="Course";
 		}
 		else if ( App.getApp().getProperty( "TriathlonMode" ) == 1 ){
-			string_type="Aquathlon";
-			string_type="Vélo";		
+			//string_type="Aquathlon";
+			string_type="VTT";		
 		}
 		else{
 			string_type="Duathlon";
