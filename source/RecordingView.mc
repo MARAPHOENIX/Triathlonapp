@@ -229,6 +229,8 @@ class RecordingView extends Ui.View {
 			//drawTitleBar(dc);
 			//drawGPS(dc);
 			var color = inverseTextColor;
+			var inverseColor = textColor;
+			//System.println("fond " + App.getApp().getProperty( "FondEcran" ));
 			if (App.getApp().getProperty( "FondEcran" ) == 0){
 			    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
        		    dc.fillRectangle(0, 0, 218, 218);
@@ -236,8 +238,9 @@ class RecordingView extends Ui.View {
 			 	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
        		    dc.fillRectangle(0, 0, 218, 218);
        		    color = textColor;
+       		    inverseColor = inverseTextColor;
 			}
-			drawDataFields(dc,color);
+			drawDataFields(dc,color,inverseColor);
 		}
 		
 		
@@ -375,7 +378,7 @@ class RecordingView extends Ui.View {
 	}
 	
 	
-	function drawDataFields(dc,color) {
+	function drawDataFields(dc,color,inverseColor) {
 		//on calcule le lap pace
 		calculateLapPace();
 		
@@ -383,7 +386,12 @@ class RecordingView extends Ui.View {
 		var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
 		chrono = elapsedTime;
 	
+		dc.setColor(color, color);
+		
+		dc.fillRectangle(0, 157, 218, 218);
 		dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+		
+		
 		var cursession = Act.getActivityInfo();
 		//vitesse moy 10s
 		paceData.add(cursession.currentSpeed);
@@ -392,6 +400,8 @@ class RecordingView extends Ui.View {
 		var computeAvgSpeed = Functions.computeAverageSpeed(paceData);
 		var computeAvgSpeed3s = Functions.computeAverageSpeed(paceData3);
 		var computeAvgSpeed30s = Functions.computeAverageSpeed(paceData30);
+		
+		
 		
 		var font = Graphics.FONT_NUMBER_HOT;
 		
@@ -443,13 +453,17 @@ class RecordingView extends Ui.View {
 		dc.drawText(30, 76, Graphics.FONT_NUMBER_MEDIUM, string_HR, CENTER);
 		
 		//vmoy
+		dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
 		dc.drawText(110, 180, Graphics.FONT_NUMBER_HOT,avg, CENTER);
 		
+		dc.setColor(color, Gfx.COLOR_TRANSPARENT);
 		//dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
 		if (dataLap == 1){
 			//System.println("LapTime " + LapTime.toNumber()); 
 			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime.toNumber()), CENTER);
-			dc.drawText(dc.getWidth()/2+68, dc.getHeight()/2+50, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
+			dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(dc.getWidth()/2+63, dc.getHeight()/2+62, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
+			dc.setColor(color, Gfx.COLOR_TRANSPARENT);
 		}else{
 			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
 		}
@@ -491,9 +505,11 @@ class RecordingView extends Ui.View {
         //tendance vitesse
         if (computeAvgSpeed >=computeAvgSpeed3s ){
 		   dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+		   //dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
 		   dc.fillPolygon([[30,40],[50, 40],[40,55]]);
 		}else if (computeAvgSpeed3s > computeAvgSpeed){
 			dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+			//dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
 		    dc.fillPolygon([[30,55],[50, 55],[40,40]]);
 		}
 		
@@ -515,10 +531,12 @@ class RecordingView extends Ui.View {
         
         //System.println("Vmoy " + vMoy +" - " + computeAvgSpeed30s);
         if (vMoy>computeAvgSpeed30s){
-             dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+             //dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+             dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
              dc.fillPolygon([[30,170],[50, 170],[40,185]]);//DOWN
         }else if (computeAvgSpeed30s>=vMoy){
-            dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+            //dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+            dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
             dc.fillPolygon([[30,185],[50, 185],[40,170]]);//UP
         }
         
@@ -538,21 +556,20 @@ class RecordingView extends Ui.View {
         dc.drawLine(0, 100, dc.getWidth(), 100);
         dc.drawLine(0, 156, dc.getWidth(), 156);
         
-        if (vMoy>4.17){
-        	color = Graphics.COLOR_BLUE;
-        	if (vMoy>4.45){
-        		color = Graphics.COLOR_GREEN;
-        	}
-        	if (vMoy>4.723){
-        		color = Graphics.COLOR_ORANGE;
-        	}
-        	if (vMoy>5){
-        	  	color = Graphics.COLOR_RED;
-        	}
-        	
-        	dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-       		dc.fillRectangle(154,157,62,28);
+        if (computeAvgSpeed30s > 4.16666667){
+         	color = Graphics.COLOR_GREEN;
+         	
+         	if (computeAvgSpeed30s > 4.444444444){
+         		color = Graphics.COLOR_BLUE;
+         	}
+         	
+         	if (computeAvgSpeed30s > 5){
+         		color = Graphics.COLOR_YELLOW;
+         	}
+         	dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+         	dc.fillRectangle(165,157,62,20);      	
         }
+        
         
 	}
 	
