@@ -286,4 +286,60 @@ module Functions {
         }
         return 0.0;
     }
+    
+    
+    function computeAverageSpeedLisse(tableau) {
+	       var size = 0;
+	       var data = tableau.getData();
+	       var sumOfData = 0.0;
+	       var sizeAvg = 0;
+	
+	       //for (var i = 0; i < data.size(); i++) {
+	       //    if (data[i] != null) {
+	       //        sumOfData = sumOfData + data[i];
+	       //        size++;
+	       //    }
+	       //}
+	
+	       //if (sumOfData > 0) {
+	       //    return sumOfData / size;
+	       //}
+	       
+	       //si tableau rempli
+	       //if (data.size() == 10){
+	       //   paceDataAvg.add(data[0]);
+	       //   for (var j = 0; j < 6; j++){
+	       //   	 paceDataAvg.add((data[j]+data[j+1]+data[j+2]+data[j+3]+data[j+4])/5);
+	       //   }
+	       //   paceDataAvg.add((data[7]+data[8]+data[9])/3);
+	       //}
+		   
+		   //si tableau rempli
+	       if (data.size() == 10){
+	       	  	var calculOk=1;
+       			for (var i = 0; i < data.size(); i++) {
+	           		if (data[i] == null && calculOk == 1) {
+	              		calculOk=0;
+	           		}
+	       		}	     
+	       	  if (calculOk==1){
+		          sumOfData = (data[0]+data[1]+data[2])/3;
+		          sizeAvg++;
+		          for (var j = 0; j < 6; j++){
+		          	 sumOfData = sumOfData + ((data[j]+data[j+1]+data[j+2]+data[j+3]+data[j+4])/5);
+		          	 sizeAvg++;
+		          }
+		          sumOfData = sumOfData + ((data[7]+data[8]+data[9])/3);
+		          sizeAvg++;
+		      }
+	       }
+		   //var dataAvg = paceDataAvg.getData();
+	
+	
+	       if (sumOfData > 0) {
+	           return sumOfData / sizeAvg;
+	       }
+	
+	       return 0.0;
+   	  }
 }

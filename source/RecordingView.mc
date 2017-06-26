@@ -86,9 +86,18 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 				}else{
 					if (App.getApp().getProperty( "FondEcran" ) == 0){
 	    				App.getApp().setProperty( "FondEcran",1);
+	    				
+	    				if (App.getApp().getProperty( "PaceField" ) == 0){
+	    					App.getApp().setProperty( "PaceField",1);
+	    				}else{
+	    					App.getApp().setProperty( "PaceField",0);
+	    				}
 	    			}else{
 	    				App.getApp().setProperty( "FondEcran",0);
 	    			}
+	    				
+	    		
+	    			
 					screen = 0;
 				}
 			}
@@ -105,6 +114,7 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 	    		}else{
 	    			App.getApp().setProperty( "Format",0);
 	    		}
+	    	
 			}
 			
 			if (vue == 1){
@@ -115,6 +125,7 @@ class RecordingViewInputDelegate extends Ui.InputDelegate {
 					dataLap = 0;
 				}
 			}
+			
 			
 			
 			if (vue == 0){
@@ -222,9 +233,11 @@ class RecordingView extends Ui.View {
 		//drawSegments(dc);
 		
 		if (App.getApp().getProperty( "Choix" ) == 0){
-			drawTitleBar(dc);
-			drawGPS(dc);
-			drawDataFieldsInit(dc);
+			//drawTitleBar(dc);
+			//drawGPS(dc);
+			//drawDataFieldsInit(dc);
+			drawGPS1(dc);
+			drawDataFields1(dc);
 		}else{
 			//drawTitleBar(dc);
 			//drawGPS(dc);
@@ -279,6 +292,14 @@ class RecordingView extends Ui.View {
 		
 		dc.setColor( Functions.getGPSQualityColour(gpsinfo), Gfx.COLOR_BLACK);
 		dc.fillRectangle(0, 40, dc.getWidth(), 2);
+    }
+    
+     function drawGPS1(dc) {
+		var gpsinfo = Pos.getInfo();
+		var gpsIsOkay = ( gpsinfo.accuracy == Pos.QUALITY_GOOD || gpsinfo.accuracy == Pos.QUALITY_USABLE );
+		
+		dc.setColor( Functions.getGPSQualityColour(gpsinfo), Gfx.COLOR_BLACK);
+		dc.fillRectangle(0, 125, dc.getWidth(), 2);
     }
 
 	function drawSegments(dc) {
@@ -378,6 +399,23 @@ class RecordingView extends Ui.View {
 	}
 	
 	
+	function drawDataFields1(dc) {
+		var y = 44;
+		
+		var cursession = Act.getActivityInfo();
+		paceData.add(cursession.currentSpeed);
+		
+		var computeAvgSpeed = Functions.computeAverageSpeed(paceData);
+		var computeAvgSpeedLisse = Functions.computeAverageSpeedLisse(paceData);
+		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+		dc.drawText(110, 180, Graphics.FONT_NUMBER_HOT,Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
+		
+		var font =  Graphics.FONT_NUMBER_THAI_HOT;
+        	dc.drawText(dc.getWidth()/2, 57, font, Functions.convertSpeedToBike(computeAvgSpeedLisse,0), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+		
+	}
+	
+	
 	function drawDataFields(dc,color,inverseColor) {
 		//on calcule le lap pace
 		calculateLapPace();
@@ -406,15 +444,26 @@ class RecordingView extends Ui.View {
 		var font = Graphics.FONT_NUMBER_HOT;
 		
 		var data = Functions.getMinutesPerKmOrMile(computeAvgSpeed);
+		
+		if(App.getApp().getProperty( "PaceField" ) == 0){
+			data = Functions.getMinutesPerKmOrMile(cursession.currentSpeed);
+		}
+		
 		var largeur = dc.getWidth()/2 - 3;
 		var avg = Functions.getMinutesPerKmOrMile(cursession.averageSpeed);
 		
 		if (dataLap == 1){
 			avg = Functions.getMinutesPerKmOrMile(lapVel);
 		}
+		//System.println("PaceField " + App.getApp().getProperty( "PaceField" ));
+		//System.println("vitesse " + Functions.getMinutesPerKmOrMile(cursession.currentSpeed));
 	
 		if (App.getApp().getProperty( "Format" ) == 1){
 			data = Functions.convertSpeedToBike(computeAvgSpeed,0);
+			
+			if(App.getApp().getProperty( "PaceField" ) == 0){
+				data = Functions.convertSpeedToBike(cursession.currentSpeed,0);
+			}
 			largeur =  dc.getWidth()/2 + 3;
 			avg = Functions.convertSpeedToBike(cursession.averageSpeed,0);
 			
@@ -463,6 +512,7 @@ class RecordingView extends Ui.View {
 			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime.toNumber()), CENTER);
 			dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
 			dc.drawText(dc.getWidth()/2+63, dc.getHeight()/2+62, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
+			
 			dc.setColor(color, Gfx.COLOR_TRANSPARENT);
 		}else{
 			dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
@@ -569,6 +619,12 @@ class RecordingView extends Ui.View {
          	dc.setColor(color, Graphics.COLOR_TRANSPARENT);
          	dc.fillRectangle(165,157,62,20);      	
         }
+        
+        dc.setColor(inverseTextColor, Graphics.COLOR_TRANSPARENT);
+        
+        if(App.getApp().getProperty( "PaceField" ) != 0){
+			dc.drawText(dc.getWidth()/2+80, dc.getHeight()/2+42, Gfx.FONT_SMALL, "10", Gfx.TEXT_JUSTIFY_CENTER);
+		}
         
         
 	}
