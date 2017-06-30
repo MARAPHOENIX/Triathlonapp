@@ -27,8 +27,12 @@ class MainMenuInputDelegate extends Ui.MenuInputDelegate {
             Ui.pushView( new Rez.Menus.LapCalcMenu(), new LapCalcMenuInputDelegate(), Ui.SLIDE_LEFT );
             Ui.requestUpdate();
         }
-        else{
+        else if ( item == :item_6 )  {
         	Ui.pushView( new Rez.Menus.ChangeMode(), new ChangeModeInputDelegate(), Ui.SLIDE_LEFT );
+            Ui.requestUpdate();
+        }
+        else{
+        	Ui.pushView( new Rez.Menus.HRMenu(), new HRMenuInputDelegate(), Ui.SLIDE_LEFT );
             Ui.requestUpdate();
         }
     }
@@ -164,5 +168,21 @@ class LapCalcMenuInputDelegate extends Ui.MenuInputDelegate {
     }
 
 }
+
+class HRMenuInputDelegate extends Ui.MenuInputDelegate {
+
+	function onMenuItem(item) {
+        if ( item == :item_1 ) {
+			App.getApp().setProperty( "HR", 1);
+			Ui.requestUpdate();   
+        } 
+        else if ( item == :item_2 ) {
+            App.getApp().setProperty( "HR", 0);
+			Ui.requestUpdate();
+        }
+    }
+
+}
+
 
 
