@@ -14,24 +14,28 @@ class Discipline {
 		"Trans 1", 
 		"Cycle", 
 		"Trans 2", 
-		"Run" ];
+		"Run",
+		"Walk" ];
 	static var stageSports = [ 
 		Rec.SPORT_SWIMMING, 
 		Rec.SPORT_TRANSITION, 
 		Rec.SPORT_CYCLING, 
 		Rec.SPORT_TRANSITION, 
-		Rec.SPORT_RUNNING ];
+		Rec.SPORT_RUNNING,
+		Rec.SPORT_WALKING ];
 	static var stageSubSports = [ 
 		Rec.SUB_SPORT_LAP_SWIMMING, 
 		Rec.SUB_SPORT_GENERIC, 
 		Rec.SUB_SPORT_ROAD, 
 		Rec.SUB_SPORT_GENERIC, 
+		Rec.SUB_SPORT_STREET,
 		Rec.SUB_SPORT_STREET ];
 	static var stageIcons = [ 
 		Rez.Drawables.SwimIcon,
 		Rez.Drawables.TransIcon,
 		Rez.Drawables.CycleIcon,
 		Rez.Drawables.TransIcon,
+		Rez.Drawables.RunIcon, 
 		Rez.Drawables.RunIcon ];
 		
 	var startTime = 0;
@@ -89,7 +93,6 @@ class Discipline {
 	}
 	
 	function onEndDiscard() {
-		System.println("Discard");
 		endTime = Sys.getTimer();
 		if( TriData.currentDiscipline == 0 || TriData.currentDiscipline == 2 || TriData.currentDiscipline == 4 ){
     		if( disciplineSession != null && disciplineSession.isRecording() )

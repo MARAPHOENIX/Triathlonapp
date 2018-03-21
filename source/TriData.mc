@@ -46,11 +46,11 @@ module TriData {
 		// Duathlon
 		if( triMode == 2 )
 		{
-			disciplines[0].initaliseDiscipline(4);
-			disciplines[1].initaliseDiscipline(1);
-			disciplines[2].initaliseDiscipline(2);
-			disciplines[3].initaliseDiscipline(3);
-			disciplines[4].initaliseDiscipline(4);
+			disciplines[0].initaliseDiscipline(5);
+			//disciplines[1].initaliseDiscipline(1);
+			//disciplines[2].initaliseDiscipline(2);
+			//disciplines[3].initaliseDiscipline(3);
+			//disciplines[4].initaliseDiscipline(4);
 		}
 	}
 	

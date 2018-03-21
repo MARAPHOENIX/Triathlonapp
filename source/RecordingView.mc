@@ -270,11 +270,11 @@ class RecordingView extends Ui.View {
             avgColor =  Graphics.COLOR_GREEN;
             if (App.getApp().getProperty( "FondEcran" ) == 0){
                 dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
-                   dc.fillRectangle(0, 0, 218, 218);
+                   dc.fillRectangle(0, 0, 240, 240);
                    avgColor =  Graphics.COLOR_GREEN;
             }else{
                  dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
-                   dc.fillRectangle(0, 0, 218, 218);
+                   dc.fillRectangle(0, 0, 240, 240);
                    color = textColor;
                    inverseColor = inverseTextColor;
             }
@@ -486,7 +486,7 @@ class RecordingView extends Ui.View {
        
         //data = Functions.getMinutesPerKmOrMile(lapVel50);
        
-        var largeur = dc.getWidth()/2 - 3;
+        var largeur = dc.getWidth()/2 + 3;
         var avg = Functions.getMinutesPerKmOrMile(cursession.averageSpeed);
        
         if (dataLap == 1){
@@ -534,16 +534,16 @@ class RecordingView extends Ui.View {
         //System.println("data : " + data);
         if (computeAvgSpeed>=1.67){
             font =  Graphics.FONT_NUMBER_THAI_HOT;
-            dc.drawText(largeur, 57, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(dc.getWidth()/2, 62, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }else{
-            dc.drawText(largeur, 68, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(dc.getWidth()/2, 72, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         }
 
        
        
         //hr
         if (isHR == 1){
-            dc.drawText(30, 76, Graphics.FONT_NUMBER_MEDIUM, string_HR, CENTER);
+            dc.drawText(37, 76, Graphics.FONT_NUMBER_MILD, string_HR, CENTER);
             //dc.drawText(33, 76, Graphics.FONT_MEDIUM, Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
         }else{
             dc.drawText(33, 76, Graphics.FONT_MEDIUM, Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
@@ -555,13 +555,13 @@ class RecordingView extends Ui.View {
         //vmoy
         //dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
         dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-        dc.drawText(110, 180, Graphics.FONT_NUMBER_HOT,avg, CENTER);
+        dc.drawText(120, 185, Graphics.FONT_NUMBER_HOT,avg, CENTER);
        
         dc.setColor(color, Gfx.COLOR_TRANSPARENT);
         //dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
         if (dataLap == 1){
             //System.println("LapTime " + LapTime.toNumber());
-            dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime.toNumber()), CENTER);
+            dc.drawText(170, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime.toNumber()), CENTER);
             //dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
             if (App.getApp().getProperty( "FondEcran" ) == 0){
                 //dc.setColor(color, Gfx.COLOR_TRANSPARENT);
@@ -570,7 +570,7 @@ class RecordingView extends Ui.View {
            
             dc.setColor(color, Gfx.COLOR_TRANSPARENT);
         }else{
-            dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
+            dc.drawText(170, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
         }
        
         //distance
@@ -589,11 +589,11 @@ class RecordingView extends Ui.View {
         if (cadence > 0){
             cadenceStr = cadence.format("%d");
         }
-        dc.drawText(dc.getWidth()-35, 76, Graphics.FONT_NUMBER_MEDIUM, cadenceStr, CENTER);
+        dc.drawText(dc.getWidth()-37, 76, Graphics.FONT_NUMBER_MILD, cadenceStr, CENTER);
        
         //dc.drawText(dc.getWidth()-35, 45, Graphics.FONT_TINY, elapsedLapDistance50.format("%d"), CENTER);
         if (isHR == 1){
-            dc.drawText(dc.getWidth()-38, 45, Graphics.FONT_TINY, Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
+            dc.drawText(dc.getWidth()-32, 167, Graphics.FONT_TINY, Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
         }
        
        
@@ -679,7 +679,7 @@ class RecordingView extends Ui.View {
                  color = Graphics.COLOR_YELLOW;
              }
              dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-             dc.fillRectangle(165,157,62,20);         
+             dc.fillRectangle(dc.getWidth()/2-10,220,20,10);         
         }
        
         dc.setColor(inverseTextColor, Graphics.COLOR_TRANSPARENT);
