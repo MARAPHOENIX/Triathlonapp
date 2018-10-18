@@ -70,8 +70,8 @@
     	<setting propertyKey="@Properties.PaceField" title="@Strings.RunPaceField" prompt="@Strings.MyStringPrompt">
 			<settingConfig type="list">
 				<listEntry value="0">@Strings.CurrentPace</listEntry>
-				<listEntry value="1">@Strings.AveragePace</listEntry>
-				<listEntry value="2">@Strings.LapPace</listEntry>
+				<listEntry value="1">@Strings.LapPace</listEntry>
+				<listEntry value="2">@Strings.AveragePace</listEntry>
 			</settingConfig>
 		</setting>
 	
@@ -89,9 +89,9 @@
 		</menu>
 	
 		<menu id="ModeMenu" title="@Strings.ModeMenu">
-    		<menu-item id="item_1">Triathlon</menu-item>
-    		<menu-item id="item_2">Aquathlon</menu-item>
-    		<menu-item id="item_3">Duathlon</menu-item>
+    		<menu-item id="item_1">Course</menu-item>
+    		<menu-item id="item_2">VTT</menu-item>
+    		<menu-item id="item_3">Marche</menu-item>
 		</menu>
 		
 		<menu id="RunSettings" title="@Strings.RunSettings">

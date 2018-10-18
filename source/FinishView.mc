@@ -12,12 +12,8 @@ using Toybox.Timer as Timer;
 
 class FinishViewInputDelegate extends Ui.InputDelegate {
 	function onKey(evt) {
-	
 		var keynum = Lang.format("F $1$", [evt.getKey()]);
 		Sys.println(keynum);
-		
-		
-	
 	}
 }
 

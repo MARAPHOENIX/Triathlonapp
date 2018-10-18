@@ -443,26 +443,17 @@ class RecordingView extends Ui.View {
        
     }
    
+   	
    
     function drawDataFields(dc,color,inverseColor) {
         //on calcule le lap pace
         calculateLapPace();
-       
-        //on calcule le lap pace
-        //calculatePace50();
-       
-        //System.println(Functions.convertSpeedToBike(lapVel50,0));
-           
-        //System.println(isHR);   
+    
            
         //chrono
         var elapsedTime = Sys.getTimer() - TriData.disciplines[0].startTime;
         chrono = elapsedTime;
    
-        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
-        //dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_BLUE);
-       
-        //dc.fillRectangle(0, 157, 218, 218);
         dc.setColor(color, Gfx.COLOR_TRANSPARENT);
        
        
@@ -480,43 +471,44 @@ class RecordingView extends Ui.View {
        
         var data = Functions.getMinutesPerKmOrMile(computeAvgSpeed);
        
-        //if(App.getApp().getProperty( "PaceField" ) == 0){
-            //data = Functions.getMinutesPerKmOrMile(cursession.currentSpeed);
-        //}
-       
-        //data = Functions.getMinutesPerKmOrMile(lapVel50);
-       
+        if(App.getApp().getProperty( "PaceField" ) == 0){
+            data = Functions.getMinutesPerKmOrMile(cursession.currentSpeed);
+        }
+        
+        if(App.getApp().getProperty( "PaceField" ) == 1){
+            data = Functions.getMinutesPerKmOrMile(lapVel);
+        }
+              
         var largeur = dc.getWidth()/2 + 3;
         var avg = Functions.getMinutesPerKmOrMile(cursession.averageSpeed);
        
         if (dataLap == 1){
             avg = Functions.getMinutesPerKmOrMile(lapVel);
         }
-        //System.println("PaceField " + App.getApp().getProperty( "PaceField" ));
-        //System.println("vitesse " + Functions.getMinutesPerKmOrMile(cursession.currentSpeed));
-   
+
         if (App.getApp().getProperty( "Format" ) == 1){
             data = Functions.convertSpeedToBike(computeAvgSpeed,0);
            
-            //if(App.getApp().getProperty( "PaceField" ) == 0){
-                //data = Functions.convertSpeedToBike(cursession.currentSpeed,0);
-            //}
-           
-            //data = Functions.convertSpeedToBike(lapVel50,0);
-           
+            if(App.getApp().getProperty( "PaceField" ) == 0){
+                data = Functions.convertSpeedToBike(cursession.currentSpeed,0);
+            }
+          
             largeur =  dc.getWidth()/2 + 3;
             avg = Functions.convertSpeedToBike(cursession.averageSpeed,0);
            
             if (dataLap == 1){
                 avg = Functions.convertSpeedToBike(lapVel,0);
             }
+            
+            if(App.getApp().getProperty( "PaceField" ) == 1){
+            	data = Functions.convertSpeedToBike(lapVel,0);
+        	}
         }
        
         distance = cursession.elapsedDistance != null ? cursession.elapsedDistance : 0;
         distanceCalc = distance;
        
-       
-        //System.println("AVG : " + lapCalc + " - "  + dataLap);
+     
         if (lapCalc == 1){
             if (distance>0 && chrono>0){
                distanceCalc = distance + delta;
@@ -524,14 +516,10 @@ class RecordingView extends Ui.View {
               
                if (App.getApp().getProperty( "Format" ) == 1) {
                        avg = Functions.convertSpeedToBike((distanceCalc / chrono * 1000),0);
-                       //System.println("avg vel " + avg);
                }
-               //System.println("avg calc : " + avg);
             }
         }
        
-       
-        //System.println("data : " + data);
         if (computeAvgSpeed>=1.67){
             font =  Graphics.FONT_NUMBER_THAI_HOT;
             dc.drawText(dc.getWidth()/2, 62, font, data, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
@@ -544,28 +532,17 @@ class RecordingView extends Ui.View {
         //hr
         if (isHR == 1){
             dc.drawText(37, 76, Graphics.FONT_NUMBER_MILD, string_HR, CENTER);
-            //dc.drawText(33, 76, Graphics.FONT_MEDIUM, Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
         }else{
             dc.drawText(33, 76, Graphics.FONT_MEDIUM, Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
         }
        
-       
-       
-       
-        //vmoy
-        //dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
+      
         dc.setColor(color, Gfx.COLOR_TRANSPARENT);
         dc.drawText(120, 185, Graphics.FONT_NUMBER_HOT,avg, CENTER);
        
         dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-        //dc.drawText(150, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(elapsedTime), CENTER);
         if (dataLap == 1){
-            //System.println("LapTime " + LapTime.toNumber());
             dc.drawText(170, 131,  Graphics.FONT_NUMBER_MEDIUM, Functions.msToTime(LapTime.toNumber()), CENTER);
-            //dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
-            if (App.getApp().getProperty( "FondEcran" ) == 0){
-                //dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-            }
             dc.drawText(dc.getWidth()/2+63, dc.getHeight()/2+62, Gfx.FONT_SMALL, LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
            
             dc.setColor(color, Gfx.COLOR_TRANSPARENT);
@@ -591,7 +568,6 @@ class RecordingView extends Ui.View {
         }
         dc.drawText(dc.getWidth()-37, 76, Graphics.FONT_NUMBER_MILD, cadenceStr, CENTER);
        
-        //dc.drawText(dc.getWidth()-35, 45, Graphics.FONT_TINY, elapsedLapDistance50.format("%d"), CENTER);
         if (isHR == 1){
             dc.drawText(dc.getWidth()-32, 167, Graphics.FONT_TINY, Functions.convertSpeedToBike(cursession.currentSpeed,0), CENTER);
         }
@@ -616,11 +592,9 @@ class RecordingView extends Ui.View {
         //tendance vitesse
         if (computeAvgSpeed >=computeAvgSpeed3s ){
            dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-           //dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
            dc.fillPolygon([[30,40],[50, 40],[40,55]]);
         }else if (computeAvgSpeed3s > computeAvgSpeed){
             dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-            //dc.setColor(inverseColor, Gfx.COLOR_TRANSPARENT);
             dc.fillPolygon([[30,55],[50, 55],[40,40]]);
         }
        
@@ -629,34 +603,23 @@ class RecordingView extends Ui.View {
        
         if (dataLap == 1){
             vMoy = lapVel != null ? lapVel : 0;
-            //System.println("vMoy = lapVel : " +lapVel);
         }
        
         if (lapCalc == 1){
             if (distance>0 && chrono>0){
                distanceCalc = distance + delta;
                vMoy = distanceCalc / chrono * 1000;
-               //System.println("avg calc : " + avg);
             }
         }
        
-        //System.println("Vmoy " + vMoy +" - " + computeAvgSpeed30s);
         if (vMoy>computeAvgSpeed30s){
-             //dc.setColor(color, Graphics.COLOR_TRANSPARENT);
              dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
-             //dc.setColor(avgColor, Gfx.COLOR_TRANSPARENT);
              dc.fillPolygon([[30,170],[50, 170],[40,185]]);//DOWN
         }else if (computeAvgSpeed30s>=vMoy){
-            //dc.setColor(color, Graphics.COLOR_TRANSPARENT);
             dc.setColor(avgColor, Gfx.COLOR_TRANSPARENT);
             dc.fillPolygon([[30,185],[50, 185],[40,170]]);//UP
         }
-       
-       
-       
-        //System.println("lapace : " + lapPace + " - " + lapDistance + " - " + LapTime + " - " + Functions.convertSpeedToBike(lapVel,0) + " - " + avg );
-        //System.println("lapPace : " + lapPace + " - " + LapTime + " - " + lapDistance);
-       
+
        
         //grid
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
@@ -683,11 +646,7 @@ class RecordingView extends Ui.View {
         }
        
         dc.setColor(inverseTextColor, Graphics.COLOR_TRANSPARENT);
-       
-        //if(App.getApp().getProperty( "PaceField" ) != 0){
-        //    dc.drawText(dc.getWidth()/2+80, dc.getHeight()/2+42, Gfx.FONT_SMALL, "10", Gfx.TEXT_JUSTIFY_CENTER);
-        //}
-       
+
        
     }
    
@@ -855,16 +814,16 @@ class LapView extends Ui.View {
         dc.clear();
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         dc.drawText(dc.getWidth()/2, dc.getFontHeight(Gfx.FONT_LARGE)-30, Gfx.FONT_LARGE, "Lap " + LapCounter, Gfx.TEXT_JUSTIFY_CENTER);
-        dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2 -45, Gfx.FONT_NUMBER_HOT, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - dc.getFontHeight(Gfx.FONT_NUMBER_MEDIUM)/2 -45, Gfx.FONT_NUMBER_MEDIUM, Functions.msToTimeWithDecimals(LapTime.toLong()), Gfx.TEXT_JUSTIFY_CENTER);
         if (App.getApp().getProperty( "Format" ) == 1){
-            dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, Functions.convertSpeedToBike(lapVel,0), Gfx.TEXT_JUSTIFY_CENTER);
+            dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_HOT, Functions.convertSpeedToBike(lapVel,0), Gfx.TEXT_JUSTIFY_CENTER);
         }else{
-            dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_MEDIUM, lapPace, Gfx.TEXT_JUSTIFY_CENTER);
+            dc.drawText(dc.getWidth()/2, dc.getHeight()/2-10 , Gfx.FONT_NUMBER_HOT, lapPace, Gfx.TEXT_JUSTIFY_CENTER);
         }
-        dc.drawText(dc.getWidth()/2, dc.getHeight()/2 +40, Gfx.FONT_NUMBER_MEDIUM, lapDistance, Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth()/2, dc.getHeight()/2 +60, Gfx.FONT_NUMBER_MEDIUM, lapDistance, Gfx.TEXT_JUSTIFY_CENTER);
        
        
-        if (counter < 5){
+        if (counter < 8){
             counter = counter + 1;
         }
         else{
