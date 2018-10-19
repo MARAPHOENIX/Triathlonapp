@@ -287,6 +287,54 @@ module Functions {
         return 0.0;
     }
     
+    function getDiffSpeed(speedMetersPerSecond1,speedMetersPerSecond2) {
+        //speedMetersPerSecond1 must be >= speedMetersPerSecond2
+        var secondesPerKmOrMilesDecimal1 = 0;
+        if (speedMetersPerSecond1 != null && speedMetersPerSecond1 > 0.2) {
+            var metersPerMinute1 = speedMetersPerSecond1 * 60.0;
+            var minutesPerKmOrMilesDecimal1 = 1000 / metersPerMinute1;
+            secondesPerKmOrMilesDecimal1 =  minutesPerKmOrMilesDecimal1 * 60;
+        }
+
+        var secondesPerKmOrMilesDecimal2 = 0;
+        if (speedMetersPerSecond2 != null && speedMetersPerSecond2 > 0.2) {
+            var metersPerMinute2 = speedMetersPerSecond2 * 60.0;
+            var minutesPerKmOrMilesDecimal2 = 1000 / metersPerMinute2;
+            secondesPerKmOrMilesDecimal2 =  minutesPerKmOrMilesDecimal2 * 60;
+        }
+
+        if (secondesPerKmOrMilesDecimal1>0 &&  secondesPerKmOrMilesDecimal2>0){
+            return secondesPerKmOrMilesDecimal2 - secondesPerKmOrMilesDecimal1;
+        }else{
+            return 0;
+        }
+    }
+    
+      function drawBlocSpeed(dc, speed1, speed2,decalage){
+        if (getDiffSpeed(speed1,speed2)<=10){
+        	dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
+        }
+        
+        if (getDiffSpeed(speed1,speed2)>10 && getDiffSpeed(speed1,speed2)<=20){
+    		dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
+        	dc.fillPolygon([[33+decalage,81],[33+decalage, 95],[44+decalage,88]]);
+        }
+        
+        if (getDiffSpeed(speed1,speed2)>20 && getDiffSpeed(speed1,speed2)<=30){
+          	dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
+        	dc.fillPolygon([[33+decalage,81],[33+decalage, 95],[44+decalage,88]]);
+        	dc.fillPolygon([[46+decalage,81],[46+decalage, 95],[57+decalage,88]]); 
+        }
+        
+        if (getDiffSpeed(speed1,speed2)>30){
+       		dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
+        	dc.fillPolygon([[33+decalage,81],[33+decalage, 95],[44+decalage,88]]);
+       	 	dc.fillPolygon([[46+decalage,81],[46+decalage, 95],[57+decalage,88]]); 
+       	 	dc.fillPolygon([[59+decalage,81],[59+decalage, 95],[70+decalage,88]]); 
+			dc.fillPolygon([[72+decalage,81],[72+decalage, 95],[83+decalage,88]]);
+        }
+    }
+    
     
     function computeAverageSpeedLisse(tableau) {
 	       var size = 0;
